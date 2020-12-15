@@ -15,7 +15,7 @@ export default function NavbarDropdown({ isOpenDrop }) {
         >
 
             {(ref) => (
-                <div ref={ref} className="">
+                <div ref={ref} className="font-axiformaItalic">
                     <div className="absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0">
                         <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                             <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
@@ -26,7 +26,7 @@ export default function NavbarDropdown({ isOpenDrop }) {
                                     </svg>
 
                                     <div className="ml-4">
-                                        <p className="text-base font-medium text-gray-900">Help Center</p>
+                                        <p className="text-base font-body text-gray-900">Help Center</p>
                                         <p className="mt-1 text-sm text-gray-500">Get all of your questions answered in our forums or contact support.</p>
                                     </div>
                                 </a>
