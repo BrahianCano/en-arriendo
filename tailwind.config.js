@@ -16,11 +16,11 @@ module.exports = {
       transparent: "transparent",
       current: "currentColor",
 
+      primary: "#6744ac",
       black: colors.black,
-      white: colors.white,
-      gray: colors.coolGray,
-      red: colors.red,
-      yellow: colors.amber,
+      darkgray: "#212121",
+      lightgray: "#b4b4b4",
+      inputColor: "#c0c0c0",
       green: colors.emerald,
       blue: colors.blue,
       indigo: colors.indigo,
@@ -123,6 +123,7 @@ module.exports = {
     borderWidth: {
       DEFAULT: "1px",
       0: "0px",
+      1: "1px",
       2: "2px",
       4: "4px",
       8: "8px",
@@ -494,6 +495,7 @@ module.exports = {
     },
     minWidth: {
       0: "0px",
+      400: "400px",
       full: "100%",
       min: "min-content",
       max: "max-content",
