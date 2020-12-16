@@ -6,7 +6,7 @@ export default function NavbarMobile({ isOpenMenu, setIsOpenMenu }) {
     return (
         <Transition
             show={isOpenMenu}
-            enter="dution-200 ease-out"
+            enter="duration-200 ease-out"
             enterFrom="opacity-0 scale-95"
             enterTo="opacity-100 scale-100"
             leave="duration-100 ease-in"
