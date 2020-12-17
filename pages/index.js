@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 import Navbar from "../components/organisms/Navbar";
+import HeaderText from "../components/molecules/header-text.jsx";
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Navbar />
+        <HeaderText/>
       </main>
     </>
   );
