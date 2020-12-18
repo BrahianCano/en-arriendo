@@ -5,6 +5,16 @@ module.exports = {
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    borderRadius: {
+      'none': '0',
+     'xs': '0.125rem',
+     DEFAULT: '0.25rem',
+     DEFAULT: '4px',
+     's': '0.375rem',
+     'm': '0.5rem',
+     'l': '2.5rem',
+     'xl': '3.5rem',
+    },
     screens: {
       sm: "640px",
       md: "768px",
@@ -25,7 +35,7 @@ module.exports = {
       blue: colors.blue,
       indigo: colors.indigo,
       purple: colors.violet,
-      pink: colors.pink,
+      white: "#fff",
     },
     spacing: {
       px: "1px",
@@ -124,6 +134,7 @@ module.exports = {
       DEFAULT: "1px",
       0: "0px",
       1: "1px",
+      1.7: "1.6px",
       2: "2px",
       4: "4px",
       8: "8px",
@@ -139,6 +150,8 @@ module.exports = {
       xl:
         "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
       "2xl": "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
+      "button": "0 -1px 0px rgba(0, 0, 0, 0.3)",
+      "form": "0 4px 20px -2px #e9e9e9",
       inner: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)",
       none: "none",
     },
@@ -720,6 +733,7 @@ module.exports = {
       "9/12": "75%",
       "10/12": "83.333333%",
       "11/12": "91.666667%",
+      "input": "28.1rem",
       full: "100%",
       screen: "100vw",
       min: "min-content",
