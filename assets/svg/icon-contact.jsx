@@ -1,8 +1,6 @@
 import * as React from "react"
 import { string, number } from 'prop-types'
 
-const colors = require("tailwindcss/colors");
-
 
 export default function IconContact(props) {
     const { size, color, viewBox } = props;
@@ -28,7 +26,7 @@ IconContact.prototype = {
 
 IconContact.defaultProps = {
     size : 26,
-    color : colors.primary[50],
+    color : '#6744ac',
     viewBox : 24
 }
 

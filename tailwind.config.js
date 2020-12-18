@@ -1,3 +1,5 @@
+
+
 const colors = require("tailwindcss/colors");
 
 module.exports = {
@@ -16,18 +18,23 @@ module.exports = {
       transparent: "transparent",
       current: "currentColor",
 
-      primary: colors.primary,
+      primary: '#6744ac',
+      primaryDark: '#4D337F',
       secondary:'#f1d3d5',
       third:'#84c1b2',
-      black: colors.black,
       darkgray: "#212121",
       lightgray: "#b4b4b4",
       inputColor: "#c0c0c0",
+      black: colors.black,
+      white: colors.white,
+      gray: colors.coolGray,
+      red: colors.red,
+      yellow: colors.amber,
       green: colors.emerald,
       blue: colors.blue,
       indigo: colors.indigo,
       purple: colors.violet,
-      pink: colors.pink,
+      pink: colors.pink
     },
     spacing: {
       px: "1px",
