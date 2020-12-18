@@ -26,7 +26,7 @@ export default function NavbarDropdown({ isOpenDrop }) {
                                     </svg>
 
                                     <div className="ml-4">
-                                        <p className="text-base font-body text-gray-900">Help Center</p>
+                                        <p className="text-base text-gray-900">Help Center</p>
                                         <p className="mt-1 text-sm text-gray-500">Get all of your questions answered in our forums or contact support.</p>
                                     </div>
                                 </a>
@@ -37,7 +37,7 @@ export default function NavbarDropdown({ isOpenDrop }) {
                                     </svg>
 
                                     <div className="ml-4">
-                                        <p className="text-base font-medium text-gray-900">Guides</p>
+                                        <p className="text-base text-gray-900">Guides</p>
                                         <p className="mt-1 text-sm text-gray-500">Learn how to maximize our platform to get the most out of it.</p>
                                     </div>
                                 </a>
@@ -48,7 +48,7 @@ export default function NavbarDropdown({ isOpenDrop }) {
                                     </svg>
 
                                     <div className="ml-4">
-                                        <p className="text-base font-medium text-gray-900">Events</p>
+                                        <p className="text-base text-gray-900">Events</p>
                                         <p className="mt-1 text-sm text-gray-500">See what meet-ups and other events we might be planning near you.</p>
                                     </div>
                                 </a>
@@ -59,7 +59,7 @@ export default function NavbarDropdown({ isOpenDrop }) {
                                     </svg>
 
                                     <div className="ml-4">
-                                        <p className="text-base font-medium text-gray-900">Security</p>
+                                        <p className="text-base text-gray-900">Security</p>
                                         <p className="mt-1 text-sm text-gray-500">Understand how we take your privacy seriously.</p>
                                     </div>
                                 </a>
@@ -67,23 +67,23 @@ export default function NavbarDropdown({ isOpenDrop }) {
                             </div>
                             <div className="px-5 py-5 bg-gray-50 sm:px-8 sm:py-8">
                                 <div>
-                                    <h3 className="text-sm tracking-wide font-medium text-gray-500 uppercase">Recent Posts</h3>
+                                    <h3 className="text-sm tracking-wide text-gray-500 uppercase">Recent Posts</h3>
                                     <ul className="mt-4 space-y-4">
                                         <li className="text-base truncate">
-                                            <a href="#" className="font-medium text-gray-900 hover:text-gray-700"> Boost your conversion rate</a>
+                                            <a href="#" className="text-gray-900 hover:text-gray-700"> Boost your conversion rate</a>
                                         </li>
 
                                         <li className="text-base truncate">
-                                            <a href="#" className="font-medium text-gray-900 hover:text-gray-700">How to use search engine optimization to drive traffic to your site</a>
+                                            <a href="#" className="text-gray-900 hover:text-gray-700">How to use search engine optimization to drive traffic to your site</a>
                                         </li>
 
                                         <li className="text-base truncate">
-                                            <a href="#" className="font-medium text-gray-900 hover:text-gray-700">Improve your customer experience</a>
+                                            <a href="#" className="text-gray-900 hover:text-gray-700">Improve your customer experience</a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="mt-5 text-sm">
-                                    <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500"> View all posts <span aria-hidden="true">&rarr;</span></a>
+                                    <a href="#" className="text-indigo-600 hover:text-indigo-500"> View all posts <span aria-hidden="true">&rarr;</span></a>
                                 </div>
                             </div>
                         </div>
