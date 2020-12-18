@@ -1,6 +1,6 @@
 import React/*, { useState }*/ from 'react';
 
-// Import resorces //
+// Import molecules //
 //import NavbarDropdown from '../molecules/navbar-dropdown';
 
 
