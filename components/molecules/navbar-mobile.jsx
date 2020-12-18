@@ -101,7 +101,7 @@ export default function NavbarMobile({ isOpenMenu, setIsOpenMenu }) {
 
                                 {/** <!--Button login.--> */}
                                 <div>
-                                    <a href="#" className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base text-white bg-primary-50 hover:bg-primary-100">
+                                    <a href="#" className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base text-white bg-primary hover:bg-primaryDark">
                                         Iniciar sesión
                                     </a>
                                 </div>

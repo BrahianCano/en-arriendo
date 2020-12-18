@@ -28,6 +28,7 @@ export default function Home() {
       </Head>
 
       <main>
+          <Navbar/>
         <HeaderText/>
       </main>
     </>
