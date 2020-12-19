@@ -3,18 +3,19 @@ import React, { useState } from 'react';
 // Import resorces //
 import NavbarAnchors from '../molecules/navbar-anchors';
 import NavbarLogo from '../molecules/navbar-logo'
-import NavbarBtnlogin from '../molecules/navbar-btnlogin'
+import NavbarButton from '../molecules/navbar-button'
 import NavbarMobile from '../molecules/navbar-mobile'
 
 // Import icons //
 import IconMenu from '../../assets/svg/icon-menu'
 
 
+
 export default function Navbar() {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
 
   return (
-    <div className="relative bg-white font-axiformaHeavy">
+    <div className="relative bg-white font-axiformaMedium">
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center border-b-2 border-gray-100 py-4 md:justify-start md:space-x-10">
@@ -33,8 +34,8 @@ export default function Navbar() {
           {/** <!--Links redirect.--> */}
           <NavbarAnchors />
 
-          {/** <!--Buttons login to action.--> */}
-          <NavbarBtnlogin />
+          {/** <!--Buttons to action.--> */}
+          <NavbarButton />
 
         </div>
       </div>

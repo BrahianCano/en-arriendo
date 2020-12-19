@@ -6,9 +6,9 @@ import { string, number } from 'prop-types'
 * @size prop int - ex: 26
 * @color prop string - ex: '#6744ac'
 * @viewBox prop int - ex: 24
-* @return IconHome
+* @return IconEstate
 */
-export default function IconHome({ size, color, viewBox }) {
+export default function IconEstate({ size, color, viewBox }) {
 
     return (
         <svg
@@ -17,19 +17,21 @@ export default function IconHome({ size, color, viewBox }) {
             width={size}
             height={size}
         >
-            <path fill="none" d="M0 0h24v24H0z" />
-            <path fill={color} d="M19 9.3V4h-3v2.6L12 3 2 12h3v8h5v-6h4v6h5v-8h3l-3-2.7zm-9 .7c0-1.1.9-2 2-2s2 .9 2 2h-4z" />
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path fill={color} d="M8.17 5.7L1 10.48V21h5v-8h4v8h5V10.25z" />
+            <path d="M17 7h2v2h-2z" fill="none" />
+            <path fill={color} d="M10 3v1.51l2 1.33L13.73 7H15v.85l2 1.34V11h2v2h-2v2h2v2h-2v4h6V3H10zm9 6h-2V7h2v2z" />
         </svg>
     )
 }
 
-IconHome.prototype = {
+IconEstate.prototype = {
     size : number,
     color : string,
     viewBox : number
 }
 
-IconHome.defaultProps = {
+IconEstate.defaultProps = {
     size : 24,
     color : '#6744ac',
     viewBox : 24

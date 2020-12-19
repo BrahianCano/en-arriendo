@@ -1,9 +1,14 @@
 import * as React from "react"
 import { string, number } from 'prop-types'
 
-
-export default function IconContact(props) {
-    const { size, color, viewBox } = props;
+/*
+* -- PROPS ENTRIES --
+* @size prop int - ex: 26
+* @color prop string - ex: '#6744ac'
+* @viewBox prop int - ex: 24
+* @return IconContact
+*/
+export default function IconContact({ size, color, viewBox }) {
 
     return (
         <svg
@@ -25,7 +30,7 @@ IconContact.prototype = {
 }
 
 IconContact.defaultProps = {
-    size : 26,
+    size : 24,
     color : '#6744ac',
     viewBox : 24
 }
