@@ -181,7 +181,7 @@ module.exports = {
     },
     fontFamily: {
       axiformaHeavy:['axiforma-heavy'],
-      axiformaItalic:['axiforma-italic'],
+      axiformaMedium:['axiforma-medium'],
       sans: [
         "ui-sans-serif",
         "system-ui",

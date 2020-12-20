@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0117b014-6766-4250-aeb3-10f8b54c62fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/molecules/navbar-button.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/header-text.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/header-text.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/icon-close.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-close.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/icon-contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/icon-home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/icon-menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/navbar-anchors.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/navbar-anchors.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/navbar-btnlogin.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/navbar-logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/navbar-logo.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/molecules/navbar-mobile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/navbar-mobile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/organisms/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +28,9 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1loQSrVqQFwA7evYsrH3uZF3zks" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,7 +41,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -43,12 +52,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608260974412</updated>
-      <workItem from="1608260993243" duration="5726000" />
+      <workItem from="1608260993243" duration="6691000" />
+      <workItem from="1608393818931" duration="8374000" />
+      <workItem from="1608404006178" duration="4776000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -60,5 +81,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

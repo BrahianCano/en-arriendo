@@ -1,9 +1,14 @@
 import * as React from "react"
 import { string, number } from 'prop-types'
 
-
-export default function IconMenu(props) {
-    const { size, color, viewBox } = props;
+/*
+* -- PROPS ENTRIES --
+* @size prop int - ex: 26
+* @color prop string - ex: '#6744ac'
+* @viewBox prop int - ex: 24
+* @return IconMenu
+*/
+export default function IconMenu({ size, color, viewBox }) {
 
     return (
         <svg
@@ -25,7 +30,7 @@ IconMenu.prototype = {
 }
 
 IconMenu.defaultProps = {
-    size : 26,
+    size : 24,
     color : '#6744ac',
     viewBox : 24
 }

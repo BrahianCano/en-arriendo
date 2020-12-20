@@ -6,9 +6,9 @@ import { string, number } from 'prop-types'
 * @size prop int - ex: 26
 * @color prop string - ex: '#6744ac'
 * @viewBox prop int - ex: 24
-* @return IconHome
+* @return IconLocal
 */
-export default function IconHome({ size, color, viewBox }) {
+export default function IconLocal({ size, color, viewBox }) {
 
     return (
         <svg
@@ -17,19 +17,19 @@ export default function IconHome({ size, color, viewBox }) {
             width={size}
             height={size}
         >
-            <path fill="none" d="M0 0h24v24H0z" />
-            <path fill={color} d="M19 9.3V4h-3v2.6L12 3 2 12h3v8h5v-6h4v6h5v-8h3l-3-2.7zm-9 .7c0-1.1.9-2 2-2s2 .9 2 2h-4z" />
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path fill={color} d="M19 7V4H5v3H2v13h8v-4h4v4h8V7h-3zm-8 3H9v1h2v1H8V9h2V8H8V7h3v3zm5 2h-1v-2h-2V7h1v2h1V7h1v5z" />
         </svg>
     )
 }
 
-IconHome.prototype = {
+IconLocal.prototype = {
     size : number,
     color : string,
     viewBox : number
 }
 
-IconHome.defaultProps = {
+IconLocal.defaultProps = {
     size : 24,
     color : '#6744ac',
     viewBox : 24
