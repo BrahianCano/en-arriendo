@@ -1,7 +1,9 @@
 import Head from "next/head";
 
+// Import template //
 import Navbar from "../components/organisms/Navbar";
-import HeaderText from "../components/molecules/header-text.jsx";
+import HeaderText from "../components/molecules/header-text";
+
 
 export default function Home() {
     return (

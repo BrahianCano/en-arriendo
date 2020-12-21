@@ -1,3 +1,4 @@
+import {useState} from "react";
 import { Transition } from '@headlessui/react'
 
 // Import icons svg //
@@ -7,14 +8,23 @@ import IconHome from '../../assets/svg/icon-home';
 import IconLocal from '../../assets/svg/icon-local';
 import IconApartament from '../../assets/svg/icon-apartament';
 import IconFarm from '../../assets/svg/icon-farm';
-
-
 import IconClose from '../../assets/svg/icon-close';
 
+// Import organisms //
+import PublishEstate from "../organisms/PublishEstate";
 
+
+/**
+ * -- PROPS ENTRIES --
+ * @isOpenMenu prop Bool: true = open
+ * @setIsOpenMenu prop Function: close menu
+ * @return NavbarMobile
+ */
 export default function NavbarMobile({ isOpenMenu, setIsOpenMenu }) {
+    const [showModal, setShowModal] = useState(false);
 
     return (
+        <>
         <Transition
             show={isOpenMenu}
             enter="duration-200 ease-out"
@@ -57,7 +67,11 @@ export default function NavbarMobile({ isOpenMenu, setIsOpenMenu }) {
                                             </span>
                                         </a>
 
-                                        <a href="#" className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                                        <a href="#" onClick={() => {
+                                            setShowModal(true);
+                                            setIsOpenMenu(false);
+                                        }}
+                                           className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
 
                                             <IconPublic size={24} className="flex-shrink-0 h-6 w-6" />
                                             <span className="ml-3 text-base text-gray-900">
@@ -107,5 +121,7 @@ export default function NavbarMobile({ isOpenMenu, setIsOpenMenu }) {
                 </div>
             )}
         </Transition>
+            <PublishEstate showModal={showModal} setShowModal={setShowModal}/>
+            </>
     );
 }
