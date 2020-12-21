@@ -95,7 +95,7 @@ export default function NavbarMobile({ isOpenMenu, setIsOpenMenu }) {
 
                                 </div>
 
-                                {/** <!--Button login.--> */}
+                                {/** <!--Button for companies.--> */}
                                 <div>
                                     <a href="#" className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base text-white bg-primary hover:bg-primaryDark">
                                         Para empresas
