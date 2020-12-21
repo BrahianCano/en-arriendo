@@ -6,6 +6,10 @@ module.exports = {
   purge: ["./pages/**/*.js", "./components/**/*.js"],
   presets: [],
   darkMode: false, // or 'media' or 'class'
+  plugins: [
+    // ...
+    require('@tailwindcss/forms'),
+  ],
   theme: {
     screens: {
       sm: "640px",
@@ -925,5 +929,4 @@ module.exports = {
     wordBreak: ["responsive"],
     zIndex: ["responsive", "focus-within", "focus"],
   },
-  plugins: [],
 };
