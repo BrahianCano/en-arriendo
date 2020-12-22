@@ -1,7 +1,14 @@
 import '../assets/css/globals.css'
 
-function MyApp({Component, pageProps}) {
-    return <Component {...pageProps} />
-}
+// Import molecules //
+import Navbar from "../components/organisms/Navbar";
 
-export default MyApp
+
+export default function MyApp({Component, pageProps}) {
+    return (
+        <>
+            <Navbar/>
+            <Component {...pageProps} />
+        </>
+    )
+}

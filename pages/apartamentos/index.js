@@ -17,10 +17,6 @@ export default function Apartments() {
                 <meta property="og:image" content="https://midominio.com/logo200x200.png"/>
                 <meta property="og:url" content="https://midominio.com/"/>
             </Head>
-
-            <main className="">
-
-            </main>
         </>
     );
 }

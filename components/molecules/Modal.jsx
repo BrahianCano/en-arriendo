@@ -1,4 +1,6 @@
 import {Transition} from '@headlessui/react'
+import React, {useEffect} from "react";
+import ReactDOM from "react-dom";
 
 // Import icons svg //
 import IconClose from '../../assets/svg/icon-close';
@@ -13,7 +15,7 @@ import IconClose from '../../assets/svg/icon-close';
  * @setShowModal prop FunctionState
  * @return Modal
  */
-export default function Modal({title = 'Modal title', svg, children, showModal, setShowModal}) {
+export default function Modal({title = 'Modal title', body = 'Modal body', svg, children, showModal, setShowModal}) {
 
     return (
         <Transition
@@ -26,7 +28,7 @@ export default function Modal({title = 'Modal title', svg, children, showModal, 
             leaveTo="opacity-0"
         >
             {(ref) => (
-                <div ref={ref} className="fixed z-10 inset-0 overflow-y-auto">
+                <div ref={ref} className="fixed z-50 inset-0 overflow-y-auto font-axiformaMedium">
                     <div
                         className="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
 
@@ -61,12 +63,13 @@ export default function Modal({title = 'Modal title', svg, children, showModal, 
 
                                         <h3 className="text-lg leading-6 text-gray-900" id="modal-headline">
 
-                                            {/* Modal body*/}
+                                            {/* Modal title*/}
                                             {title}
                                         </h3>
                                         <div className="mt-2 text-left">
 
                                             {/* Modal body*/}
+                                            <p className="my-2 text-center sm:text-left text-sm text-gray-500">{body}</p>
                                             {children}
                                         </div>
 
