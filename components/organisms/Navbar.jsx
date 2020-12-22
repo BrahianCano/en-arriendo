@@ -14,11 +14,11 @@ export default function Navbar() {
     const [isOpenMenu, setIsOpenMenu] = useState(false);
 
     return (
-        <div className="relative bg-white font-axiformaMedium">
 
+        <header className="fixed z-40 top-0 shadow-md bg-white w-full font-axiformaMedium">
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
                 <div
-                    className="flex justify-between items-center border-b-2 border-gray-100 py-4 md:justify-start md:space-x-10">
+                    className="flex justify-between items-center py-4 md:justify-start md:space-x-10">
 
                     {/** <!--Logo webpage.--> */}
                     <NavbarLogo/>
@@ -44,6 +44,6 @@ export default function Navbar() {
             {/** <!--Mobile menu, show/hide based on mobile menu state.--> */}
             <NavbarMobile isOpenMenu={isOpenMenu} setIsOpenMenu={setIsOpenMenu}/>
 
-        </div>
+        </header>
     );
 }
