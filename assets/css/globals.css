@@ -1,11 +1,12 @@
 @font-face {
     font-family: 'axiforma-heavy';
     src: local('axiforma'), url(../fonts/axiforma/Axiforma-Heavy.woff) format('truetype');
-  }
-  @font-face {
-    font-family: 'axiforma-italic';
-    src: local('axiforma'), url(../fonts/axiforma/Axiforma-Italic.woff) format('truetype');
-  }
+}
+
+@font-face {
+    font-family: 'axiforma-medium';
+    src: local('axiforma'), url(../fonts/axiforma/Axiforma-Medium.woff) format('truetype');
+}
 
 @tailwind base;
 @tailwind components;

@@ -1,47 +1,49 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 
-// Import resorces //
+// Import molecules //
 import NavbarAnchors from '../molecules/navbar-anchors';
 import NavbarLogo from '../molecules/navbar-logo'
-import NavbarBtnlogin from '../molecules/navbar-btnlogin'
+import NavbarButton from '../molecules/navbar-button'
 import NavbarMobile from '../molecules/navbar-mobile'
 
-// Import icons //
+// Import icons svg //
 import IconMenu from '../../assets/svg/icon-menu'
 
 
 export default function Navbar() {
-  const [isOpenMenu, setIsOpenMenu] = useState(false);
+    const [isOpenMenu, setIsOpenMenu] = useState(false);
 
-  return (
-    <div className="relative bg-white font-axiformaHeavy">
-      
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="flex justify-between items-center border-b-2 border-gray-100 py-4 md:justify-start md:space-x-10">
+    return (
 
-          {/** <!--Logo webpage.--> */}
-          <NavbarLogo />
+        <header className="fixed z-40 top-0 shadow-md bg-white w-full font-axiformaMedium">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6">
+                <div
+                    className="flex justify-between items-center py-4 md:justify-start md:space-x-10">
 
-          {/** <!--Mobile menu button, show to action.--> */}
-          <div className="-mr-2 -my-2 md:hidden">
-            <button type="button" onClick={() => setIsOpenMenu(true)} className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-              <span className="sr-only">Open menu</span>
-              <IconMenu size="36"/>
-            </button>
-          </div>
+                    {/** <!--Logo webpage.--> */}
+                    <NavbarLogo/>
 
-          {/** <!--Links redirect.--> */}
-          <NavbarAnchors />
+                    {/** <!--Mobile menu button, show to action.--> */}
+                    <div className="-mr-2 -my-2 md:hidden">
+                        <button type="button" onClick={() => setIsOpenMenu(true)}
+                                className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                            <span className="sr-only">Open menu</span>
+                            <IconMenu size="36"/>
+                        </button>
+                    </div>
 
-          {/** <!--Buttons login to action.--> */}
-          <NavbarBtnlogin />
+                    {/** <!--Links redirect.--> */}
+                    <NavbarAnchors/>
 
-        </div>
-      </div>
+                    {/** <!--Buttons to action.--> */}
+                    <NavbarButton/>
 
-      {/** <!--Mobile menu, show/hide based on mobile menu state.--> */}
-      <NavbarMobile isOpenMenu={isOpenMenu} setIsOpenMenu={setIsOpenMenu} />
+                </div>
+            </div>
 
-    </div>
-  );
+            {/** <!--Mobile menu, show/hide based on mobile menu state.--> */}
+            <NavbarMobile isOpenMenu={isOpenMenu} setIsOpenMenu={setIsOpenMenu}/>
+
+        </header>
+    );
 }

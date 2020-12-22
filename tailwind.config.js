@@ -6,15 +6,19 @@ module.exports = {
   purge: ["./pages/**/*.js", "./components/**/*.js"],
   presets: [],
   darkMode: false, // or 'media' or 'class'
+  plugins: [
+    // ...
+    require('@tailwindcss/forms'),
+  ],
   theme: {
     borderRadius: {
       'none': '0',
-     'xs': '0.125rem',
      DEFAULT: '0.25rem',
      DEFAULT: '4px',
      's': '0.375rem',
      'm': '0.5rem',
-     'l': '2.5rem',
+     'l1': '2.0rem',
+     'l2': '2.5rem',
      'xl': '3.5rem',
     },
     screens: {
@@ -137,6 +141,7 @@ module.exports = {
       xl: "0.75rem",
       "2xl": "1rem",
       "3xl": "1.5rem",
+      '4xl': '2.0rem',
       full: "9999px",
     },
     borderWidth: {
@@ -161,6 +166,7 @@ module.exports = {
       "2xl": "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
       "button": "0 -1px 0px rgba(0, 0, 0, 0.3)",
       "form": "0 4px 20px -2px #e9e9e9",
+      "searchBar":"rgba(0, 0, 0, 0.15) 0px 16px 32px, rgba(0, 0, 0, 0.1) 0px 3px 8px !important",
       inner: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)",
       none: "none",
     },
@@ -194,7 +200,7 @@ module.exports = {
     },
     fontFamily: {
       axiformaHeavy:['axiforma-heavy'],
-      axiformaItalic:['axiforma-italic'],
+      axiformaMedium:['axiforma-medium'],
       sans: [
         "ui-sans-serif",
         "system-ui",
@@ -401,6 +407,7 @@ module.exports = {
       "3/6": "50%",
       "4/6": "66.666667%",
       "5/6": "83.333333%",
+      "1xl": "3.75rem",
       full: "100%",
       screen: "100vh",
     }),
@@ -939,5 +946,4 @@ module.exports = {
     wordBreak: ["responsive"],
     zIndex: ["responsive", "focus-within", "focus"],
   },
-  plugins: [],
 };

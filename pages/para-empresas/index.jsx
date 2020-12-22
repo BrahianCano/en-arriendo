@@ -1,7 +1,8 @@
 import Head from "next/head";
 
 // Import template //
-import HeaderText from "../components/molecules/header-text";
+import Navbar from "../../components/organisms/Navbar";
+import SectionCompanies from "../../components/organisms/SectionCompanies";
 
 
 export default function ForCompanies() {
@@ -28,9 +29,9 @@ export default function ForCompanies() {
                 <meta property="og:url" content="https://midominio.com/"/>
             </Head>
 
-            <main className="mt-20 w-full absolute flex justify-center font-axiformaMedium">
-                <HeaderText/>
+            <main className="mt-20 font-axiformaMedium">
+                <SectionCompanies/>
             </main>
         </>
-    );
+    )
 }
