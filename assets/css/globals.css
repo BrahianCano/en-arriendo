@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'axiforma-heavy';
     src: local('axiforma'), url(../fonts/axiforma/Axiforma-Heavy.woff) format('truetype');
@@ -16,3 +17,64 @@
 
 
  
+/* Reset Select */
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #fff;
+    color: #77838f;
+    background-image: none;
+    font-size: 0.75rem;
+    font-weight: 700;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  /* Custom Select */
+  .select {
+    position: relative;
+    display: flex;
+    width: 13em;
+    height: 2.5rem;
+    line-height: 3;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 2.0rem;
+    margin: 0.125rem;
+    font-family: 'axiforma-medium';
+    margin-left: 0.04rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  select {
+    flex: 1;
+    padding: 0 0.5em;
+    color: #77838f;
+    cursor: pointer;
+  }
+  /* Arrow */
+  .select::after {
+    content: "\25BC";
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #fff;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: 0.25s all ease;
+    -o-transition: 0.25s all ease;
+    transition: 0.25s all ease;
+  }
+  /* Transition */
+  .select:hover::after {
+    color: #f39c12;
+  }
+  
