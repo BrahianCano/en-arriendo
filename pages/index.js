@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 // Import template //
-import HeaderText from "../components/molecules/header-text";
+import HeaderLanding from "../components/organisms/HeaderLanding";
 
 
 export default function ForCompanies() {
@@ -29,7 +29,7 @@ export default function ForCompanies() {
             </Head>
 
             <main className="mt-20 w-full absolute flex justify-center font-axiformaMedium">
-                <HeaderText/>
+                <HeaderLanding/>
             </main>
         </>
     );
