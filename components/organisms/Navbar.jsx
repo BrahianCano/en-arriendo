@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 
 // Import molecules //
-import NavbarAnchors from '../molecules/navbar-anchors';
-import NavbarLogo from '../molecules/navbar-logo'
-import NavbarButton from '../molecules/navbar-button'
-import NavbarMobile from '../molecules/navbar-mobile'
+import NavbarAnchors from '../molecules/Navbar-anchors';
+import NavbarLogo from '../molecules/Navbar-logo'
+import NavbarButton from '../molecules/Navbar-button'
+import NavbarMobile from '../molecules/Navbar-mobile'
 
 // Import icons svg //
 import IconMenu from '../../assets/svg/icon-menu'

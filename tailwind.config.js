@@ -1,5 +1,3 @@
-
-
 const colors = require("tailwindcss/colors");
 
 module.exports = {
@@ -22,9 +20,7 @@ module.exports = {
      'xl': '3.5rem',
     },
     screens: {
-      sm1: "410px",
-      sm2: "540px",
-      sm3: "640px",
+      sm: "640px",
       md: "768px",
       lg: "1024px",
       xl: "1280px",
@@ -33,10 +29,10 @@ module.exports = {
     colors: {
       transparent: "transparent",
       current: "currentColor",
-      "selectcolor":"rgba(44, 62, 80, 1)",
+
       primary: '#6744ac',
       primaryDark: '#4D337F',
-      secondary:'#ff7261',
+      secondary:'#f1d3d5',
       third:'#84c1b2',
       darkgray: "#212121",
       lightgray: "#b4b4b4",
@@ -143,16 +139,13 @@ module.exports = {
       xl: "0.75rem",
       "2xl": "1rem",
       "3xl": "1.5rem",
-      '4xl': '2.0rem',
       full: "9999px",
     },
     borderWidth: {
       DEFAULT: "1px",
       0: "0px",
       1: "1px",
-      1.7: "1.6px",
       2: "2px",
-      3: "3px",
       4: "4px",
       8: "8px",
     },
@@ -167,10 +160,6 @@ module.exports = {
       xl:
         "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
       "2xl": "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
-      "button": "0 -1px 0px rgba(0, 0, 0, 0.3)",
-      "form": "0 4px 20px -2px #e9e9e9",
-      "searchBar":"rgba(0, 0, 0, 0.15) 0px 16px 32px, rgba(0, 0, 0, 0.1) 0px 3px 8px !important",
-      "list":"0px 5px 8px 0px rgba(0, 0, 0, 0.2)",
       inner: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)",
       none: "none",
     },
@@ -411,7 +400,6 @@ module.exports = {
       "3/6": "50%",
       "4/6": "66.666667%",
       "5/6": "83.333333%",
-      "1xl": "3.75rem",
       full: "100%",
       screen: "100vh",
     }),
@@ -469,7 +457,6 @@ module.exports = {
       wide: "0.025em",
       wider: "0.05em",
       widest: "0.1em",
-      "xl1":"0.2rem",
     },
     lineHeight: {
       none: "1",
@@ -754,15 +741,6 @@ module.exports = {
       "9/12": "75%",
       "10/12": "83.333333%",
       "11/12": "91.666667%",
-      "input": "28.1rem",
-      "38": "38rem",
-      "35": "35rem",
-      "36": "36rem",
-      "31": "31rem",
-      "21": "21rem",
-      "25": "25rem",
-      "41": "41rem",
-      "searchMobile":"34rem",
       full: "100%",
       screen: "100vw",
       min: "min-content",

@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0117b014-6766-4250-aeb3-10f8b54c62fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/header-text.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/header-text.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/navbar-mobile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/navbar-mobile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/header-text.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/home.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/navbar-anchors.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-anchors.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/navbar-btnlogin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-btnlogin.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/navbar-button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/navbar-dropdown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-dropdown.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/navbar-logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-logo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/navbar-mobile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-mobile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/organisms/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/organisms/PublishEstate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/PublishEstate.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
@@ -21,7 +30,9 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1loQSrVqQFwA7evYsrH3uZF3zks" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,6 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608260974412</updated>
       <workItem from="1608260993243" duration="5726000" />
+      <workItem from="1608993249025" duration="6085000" />
     </task>
     <servers />
   </component>
@@ -60,5 +72,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

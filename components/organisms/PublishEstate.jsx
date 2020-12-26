@@ -2,7 +2,7 @@
 import IconPublic from "../../assets/svg/icon-public";
 
 // Import molecules //
-import Form from "../molecules/form";
+import Form from "../molecules/Form";
 import Modal from "../molecules/Modal";
 
 
