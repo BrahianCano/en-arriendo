@@ -3,6 +3,11 @@ import Search from "../molecules/Search";
 
 
 export default function HeaderLanding() {
+
+    const onSubmit = (data) =>{
+        console.log(data);
+    }
+
     return (
         <section className="my-20 font-axiformaMedium">
 
@@ -21,7 +26,7 @@ export default function HeaderLanding() {
             <div className="my-20 mx-5 md:mx-40">
 
                 {/** <!-- Search action.--> */}
-                <Search/>
+                <Search fSumbmit={onSubmit} textBtn="Buscar"/>
             </div>
 
         </section>
