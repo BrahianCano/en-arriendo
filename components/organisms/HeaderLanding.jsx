@@ -1,5 +1,7 @@
 // Import molecules //
 import Search from "../molecules/Search";
+import SectionBestHouses from "../molecules/Section-Best-Houses";
+
 
 // Import icons svg //
 import IconPublic from "../../assets/svg/icon-apartament";
@@ -20,6 +22,10 @@ export default function HeaderLanding() {
 
             <div className="my-20">
                 <Search/>
+            </div>
+
+            <div className="my-20">
+                <SectionBestHouses/>
             </div>
 
         </section>
