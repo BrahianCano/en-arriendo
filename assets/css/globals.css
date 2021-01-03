@@ -12,3 +12,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+  .card:hover {
+    transform: scale(1.05);
+  }

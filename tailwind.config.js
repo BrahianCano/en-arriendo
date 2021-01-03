@@ -18,6 +18,7 @@ module.exports = {
      'l1': '2.0rem',
      'l2': '2.5rem',
      'xl': '3.5rem',
+     '18': '18px',
     },
     screens: {
       sm: "640px",
@@ -46,7 +47,8 @@ module.exports = {
       blue: colors.blue,
       indigo: colors.indigo,
       purple: colors.violet,
-      pink: colors.pink
+      pink: colors.pink,
+
     },
     spacing: {
       px: "1px",
@@ -161,6 +163,8 @@ module.exports = {
         "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
       "2xl": "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
       inner: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)",
+      card: "5px 5px 15px rgba(0,0,0,0.9)",
+      cardHover: "5px 5px 15px rgba(0,0,0,0.6)",
       none: "none",
     },
     container: {},
@@ -372,6 +376,8 @@ module.exports = {
       10: "repeat(10, minmax(0, 1fr))",
       11: "repeat(11, minmax(0, 1fr))",
       12: "repeat(12, minmax(0, 1fr))",
+      cards: "300px",
+      CardStats: "1fr 1fr 1fr",
     },
     gridTemplateRows: {
       none: "none",
@@ -381,6 +387,8 @@ module.exports = {
       4: "repeat(4, minmax(0, 1fr))",
       5: "repeat(5, minmax(0, 1fr))",
       6: "repeat(6, minmax(0, 1fr))",
+      cards: "169px 210px 80px",
+      CardStats:"1fr",
     },
     height: (theme) => ({
       auto: "auto",
