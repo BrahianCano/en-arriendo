@@ -4,8 +4,8 @@ import {useForm} from "react-hook-form";
 /**
  * -- PROPS ENTRIES --
  * @arrFields prop Array
- * @fSumbmit Function
- * @textBtn String
+ * @fSumbmit prop Function
+ * @textBtn prop String
  * @return Form
  */
 export default function Form({arrFields, fSumbmit, textBtn}) {

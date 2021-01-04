@@ -3,20 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0117b014-6766-4250-aeb3-10f8b54c62fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Form.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/header-text.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/home.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/navbar-anchors.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-anchors.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/navbar-btnlogin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-btnlogin.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/navbar-button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/navbar-dropdown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-dropdown.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/navbar-logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-logo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/navbar-mobile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-mobile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/organisms/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/organisms/PublishEstate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/PublishEstate.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/Search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Search.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/organisms/HeaderLanding.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/HeaderLanding.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +31,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -55,7 +50,11 @@
       <option name="presentableId" value="Default" />
       <updated>1608260974412</updated>
       <workItem from="1608260993243" duration="5726000" />
-      <workItem from="1608993249025" duration="6085000" />
+      <workItem from="1608993249025" duration="6331000" />
+      <workItem from="1609125321346" duration="2504000" />
+      <workItem from="1609298732412" duration="5032000" />
+      <workItem from="1609605564595" duration="5145000" />
+      <workItem from="1609683956134" duration="12538000" />
     </task>
     <servers />
   </component>
