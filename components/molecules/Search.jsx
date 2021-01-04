@@ -22,6 +22,7 @@ export default function Search({fSumbmit, textBtn}) {
 
     /**
      * function filterLocations
+     * @query String text to will search
      * @return array with the data filetered
      */
     const filterLocations = query => {
@@ -33,6 +34,7 @@ export default function Search({fSumbmit, textBtn}) {
 
     /**
      * function autoCompleteLocation
+     * @event event the element
      * Update the state (valueSearch), for each change in input search
      */
     const autoCompleteLocation = event => {
@@ -49,6 +51,7 @@ export default function Search({fSumbmit, textBtn}) {
 
     /**
      * function SelectLocation
+     * @event event the element
      * Selected and update state (valueSearch) the location clicked.
      */
     const SelectLocation = event => {
@@ -74,7 +77,7 @@ export default function Search({fSumbmit, textBtn}) {
                        name="location"
                        value={valueSearch.location}
                        onChange={(event => autoCompleteLocation(event))}
-                       placeholder="Ciudad, Barrio"
+                       placeholder="Municipio, Barrio"
                        ref={register}
                        autoComplete="off"
                        className="focus:ring-primary focus:border-primary block w-full pl-12 pr-36 sm:text-sm border-gray-300 rounded-md"/>
