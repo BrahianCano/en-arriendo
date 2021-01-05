@@ -1,11 +1,11 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 
 // Import icons svg //
 import IconSearch from '../../assets/svg/icon-search';
 import IconPublic from '../../assets/svg/icon-public';
 
 // Import organisms //
-import PublishEstate from "../organisms/PublishEstate";
+import PublishRealestate from "../organisms/Publish-realestate";
 
 
 export default function NavbarAnchors() {
@@ -25,7 +25,7 @@ export default function NavbarAnchors() {
                     <span className="ml-1">Publicar propiedad</span>
                 </a>
             </nav>
-            <PublishEstate showModal={showModal} setShowModal={setShowModal}/>
+            <PublishRealestate showModal={showModal} setShowModal={setShowModal}/>
         </>
     )
 }

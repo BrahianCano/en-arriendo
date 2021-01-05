@@ -1,4 +1,4 @@
-import '../assets/css/globals.css'
+import '../assets/css/globals.css';
 
 // Import molecules //
 import Navbar from "../components/organisms/Navbar";

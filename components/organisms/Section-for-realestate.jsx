@@ -2,7 +2,7 @@
 import Form from "../molecules/Form";
 
 
-export default function SectionForEstates() {
+export default function SectionForRealEstate() {
 
     const arrFields = [
         {name: "inpu0", placeholder: "Nombre Apellido", type: "text"},
@@ -35,7 +35,7 @@ export default function SectionForEstates() {
                         </svg>
 
                         {/** <!--Main left container.--> */}
-                        <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+                        <main className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
                             <div className="sm:text-center lg:text-left">
 
                                     {/** <!--Title of main left container.--> */}
@@ -46,7 +46,7 @@ export default function SectionForEstates() {
                                 </h1>
 
                                 {/** <!--Call to action of main left container.--> */}
-                                <p className="my-5 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl lg:mx-0">
+                                <p className="my-5 md:my-8 text-base text-gray-500 md:text-xl lg:mx-0">
                                     Comuníquese con nuestros agentes, para trabajar juntos y
                                     <span className="block text-primary xl:inline"> crear una campaña publicitaria </span>
                                     en nuestro portal web.

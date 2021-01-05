@@ -10,9 +10,9 @@ import Modal from "../molecules/Modal";
  * -- PROPS ENTRIES --
  * @showModal prop Boolean
  * @setShowModal prop FunctionState
- * @return PublishEstate
+ * @return PublishRealestate
  */
-export default function PublishEstate({showModal, setShowModal}) {
+export default function PublishRealestate({showModal, setShowModal}) {
 
     const arrFields = [
         {name: "inpu0", placeholder: "Titulo aviso", type: "text"},

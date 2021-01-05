@@ -1,10 +1,10 @@
 import Head from "next/head";
 
 // Import template //
-import SectionForEstates from "../../components/organisms/SectionForEstates";
+import SectionForRealEstate from "../../components/organisms/Section-for-realestate";
 
 
-export default function ForEstates() {
+export default function ForRealEstate() {
     return (
         <>
             <Head>
@@ -29,7 +29,7 @@ export default function ForEstates() {
             </Head>
 
             <main className="mt-20 font-axiformaMedium">
-                <SectionForEstates/>
+                <SectionForRealEstate/>
             </main>
         </>
     )

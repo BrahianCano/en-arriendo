@@ -1,6 +1,4 @@
-import {Transition} from '@headlessui/react'
-import React, {useEffect} from "react";
-import ReactDOM from "react-dom";
+import {Transition} from '@headlessui/react';
 
 // Import icons svg //
 import IconClose from '../../assets/svg/icon-close';

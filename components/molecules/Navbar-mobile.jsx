@@ -12,7 +12,7 @@ import IconFarm from '../../assets/svg/icon-farm';
 import IconClose from '../../assets/svg/icon-close';
 
 // Import organisms //
-import PublishEstate from "../organisms/PublishEstate";
+import PublishRealestate from "../organisms/Publish-realestate";
 
 
 /**
@@ -131,7 +131,7 @@ export default function NavbarMobile({isOpenMenu, setIsOpenMenu}) {
                     </div>
                 )}
             </Transition>
-            <PublishEstate showModal={showModal} setShowModal={setShowModal}/>
+            <PublishRealestate showModal={showModal} setShowModal={setShowModal}/>
         </>
     );
 }

@@ -1,13 +1,13 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 
 // Import molecules //
 import NavbarAnchors from '../molecules/Navbar-anchors';
-import NavbarLogo from '../molecules/Navbar-logo'
-import NavbarButton from '../molecules/Navbar-button'
-import NavbarMobile from '../molecules/Navbar-mobile'
+import NavbarLogo from '../molecules/Navbar-logo';
+import NavbarButton from '../molecules/Navbar-button';
+import NavbarMobile from '../molecules/Navbar-mobile';
 
 // Import icons svg //
-import IconMenu from '../../assets/svg/icon-menu'
+import IconMenu from '../../assets/svg/icon-menu';
 
 
 export default function Navbar() {
