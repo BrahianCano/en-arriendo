@@ -2,38 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0117b014-6766-4250-aeb3-10f8b54c62fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/page-landing/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/page-about/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/page-for-realestate/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/page-home/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/icon-apartament.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-apartament.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/icon-close.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-close.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/icon-contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/icon-estate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-estate.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/icon-farm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-farm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/icon-home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/icon-local.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-local.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/icon-menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-menu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/icon-public.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-public.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/icon-search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-search.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/img-home.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/svg-input.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Modal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/Navbar-anchors.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-anchors.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/Navbar-button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/Navbar-dropdown.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/Navbar-logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-logo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/Navbar-mobile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-mobile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/organisms/HeaderLanding.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Header-landing.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/organisms/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/organisms/PublishEstate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Publish-realestate.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/organisms/SectionForEstates.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Section-for-realestate.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/apartamentos/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/para-inmobiliarias/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/para-inmobiliarias/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Logo.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/home.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img-home.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seo/page-about/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/seo/page-forRealestate/content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seo/page-home/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/seo/page-landing/content.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
