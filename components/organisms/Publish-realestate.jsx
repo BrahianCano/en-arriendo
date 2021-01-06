@@ -10,9 +10,9 @@ import Modal from "../molecules/Modal";
  * -- PROPS ENTRIES --
  * @showModal prop Boolean
  * @setShowModal prop FunctionState
- * @return PublishEstate
+ * @return PublishRealestate
  */
-export default function PublishEstate({showModal, setShowModal}) {
+export default function PublishRealestate({showModal, setShowModal}) {
 
     const arrFields = [
         {name: "inpu0", placeholder: "Titulo aviso", type: "text"},
@@ -20,7 +20,7 @@ export default function PublishEstate({showModal, setShowModal}) {
             name: "inpu1", placeholder: "Tipo de inmueble", type: "select",
             options: ["Apartamento", "Casa", "Finca", "Local"]
         },
-        {name: "inpu2", placeholder: "Direccion/Barrio", type: "text"},
+        {name: "inpu2", placeholder: "Barrio", type: "text"},
         {
             name: "inpu6", placeholder: "Municipio", type: "select",
             options: ["Medellin", "Envigado", "Sabaneta", "Itagui", "Bello", "Copacabana", "La estrella", "Caldas", "Girardota", "Barbosa"]

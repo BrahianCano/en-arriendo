@@ -1,10 +1,10 @@
 import Head from "next/head";
 
 // Import template //
-import HeaderLanding from "../components/organisms/HeaderLanding";
+import HeaderLanding from "../components/organisms/Header-landing";
 
 
-export default function ForCompanies() {
+export default function Landing() {
     return (
         <>
             <Head>

@@ -1,5 +1,5 @@
-import * as React from "react"
-import {string, number} from 'prop-types'
+import * as React from "react";
+import {string, number} from 'prop-types';
 
 /**
  * -- PROPS ENTRIES --
