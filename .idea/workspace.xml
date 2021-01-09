@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0117b014-6766-4250-aeb3-10f8b54c62fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/organisms/Section-best-realestate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Section-best-realestate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <workItem from="1609777283871" duration="11255000" />
       <workItem from="1609974259540" duration="599000" />
       <workItem from="1610145671293" duration="7597000" />
-      <workItem from="1610207954922" duration="4090000" />
+      <workItem from="1610207954922" duration="6217000" />
     </task>
     <servers />
   </component>
