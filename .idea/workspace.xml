@@ -3,22 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="0117b014-6766-4250-aeb3-10f8b54c62fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/page-for-realestate/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/templates/Template-landing.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/page-landing/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/Section-Best-Houses.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/organisms/Header-landing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Header-landing.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/templates/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/organisms/Section-best-realestate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Section-best-realestate.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -62,7 +69,8 @@
       <workItem from="1609683956134" duration="12764000" />
       <workItem from="1609777283871" duration="11255000" />
       <workItem from="1609974259540" duration="599000" />
-      <workItem from="1610145671293" duration="4441000" />
+      <workItem from="1610145671293" duration="7597000" />
+      <workItem from="1610207954922" duration="4090000" />
     </task>
     <servers />
   </component>
