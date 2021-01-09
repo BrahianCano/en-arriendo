@@ -13,7 +13,7 @@ import IconApartament from "../../assets/svg/icon-apartament";
  * @textBtn String
  * @return Search
  */
-export default function Search({fSumbmit, textBtn}) {
+export default function Search({fSumbmit, textBtn,isShow=true}) {
     const {register, handleSubmit} = useForm();
     const [valueSearch, setValueSearch] = useState({arrLocations: null, location: '', show: false});
 
@@ -132,12 +132,15 @@ export default function Search({fSumbmit, textBtn}) {
             </div>
 
             {/** <!--Button search.--> */}
+            {
+                isShow && 
             <div className="my-3 md:my-0 mx-0 md:mx-5">
                 <input
                     className="whitespace-nowrap w-full md:w-32 inline-flex items-center justify-center px-4 py-1.5 border border-transparent rounded-md shadow-sm text-base text-white bg-primary hover:bg-primaryDark"
                     value={textBtn}
                     type="submit"/>
             </div>
+}   
         </form>
     );
 }

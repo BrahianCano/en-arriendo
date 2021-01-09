@@ -1,5 +1,5 @@
 import Card from "../molecules/Card";
-
+import SubHeaderText from "../molecules/SubHeaderText"
 
 export default function SectionBestRealEstate() {
 
@@ -25,14 +25,9 @@ export default function SectionBestRealEstate() {
     return (
 
         <>
-            <div className="w-full flex flex-col justify-items-center text-center px-5 md:px-40">
-                <h2 className="text-3xl mb-5">Pendiente para definir (SEO)</h2>
-                <p className="text-gray-500">Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                    unknown printer
-                    took a galley of type and scrambled it to make a type s</p>
-            </div>
+          <SubHeaderText title="title Sub Header"
+          subtitle="sub title header"
+          />
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-center my-10 px-5 md:px-20">
 
