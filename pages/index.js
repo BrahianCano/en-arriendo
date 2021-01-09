@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 // Import template //
-import HeaderLanding from "../components/organisms/Header-landing";
+import TemplateLanding from "../components/templates/Template-landing";
 
 
 export default function Landing() {
@@ -28,8 +28,8 @@ export default function Landing() {
                 <meta property="og:url" content="https://midominio.com/"/>
             </Head>
 
-            <main className="mt-20 w-full absolute flex justify-center font-axiformaMedium">
-                <HeaderLanding/>
+            <main>
+                <TemplateLanding/>
             </main>
         </>
     );

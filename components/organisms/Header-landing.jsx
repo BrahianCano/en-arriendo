@@ -1,7 +1,5 @@
 // Import molecules //
 import Search from "../molecules/Search";
-import SectionBestHouses from "../molecules/Section-Best-Houses";
-
 
 
 export default function HeaderLanding() {
@@ -12,14 +10,14 @@ export default function HeaderLanding() {
      * @out json form data
      * @return out Data inputs
      */
-    const onSubmit = (out) =>{
+    const onSubmit = (out) => {
         console.log(out);
     }
 
     return (
-        <section className="my-20 font-axiformaMedium">
+        <section className="py-20 mx-5 md:mx-40">
 
-            <div className="mx-10 text-center">
+            <div className="text-center">
                 <h1 className="text-4xl md:text-5xl text-gray-900">
                     Titulo<span className="text-primary font-axiformaHeavy"> SEO</span>
                     <br/>
@@ -31,14 +29,10 @@ export default function HeaderLanding() {
                 </h4>
             </div>
 
-            <div className="my-20 mx-5 md:mx-40">
+            <div className="my-20">
 
                 {/** <!-- Search action.--> */}
                 <Search fSumbmit={onSubmit} textBtn="Buscar"/>
-            </div>
-
-            <div className="my-20">
-                <SectionBestHouses/>
             </div>
 
         </section>

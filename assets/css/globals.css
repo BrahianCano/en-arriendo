@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @font-face {
     font-family: 'axiforma-heavy';
@@ -8,11 +11,3 @@
     font-family: 'axiforma-medium';
     src: local('axiforma'), url(../fonts/axiforma/Axiforma-Medium.woff) format('truetype');
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-  .card:hover {
-    transform: scale(1.05);
-  }

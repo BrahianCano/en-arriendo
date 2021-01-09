@@ -36,8 +36,7 @@ module.exports = {
       secondary:'#f1d3d5',
       third:'#84c1b2',
       darkgray: "#212121",
-      lightgray: "#b4b4b4",
-      inputColor: "#c0c0c0",
+      lightgray: "#FBFCFC",
       black: colors.black,
       white: colors.white,
       gray: colors.coolGray,
@@ -48,7 +47,6 @@ module.exports = {
       indigo: colors.indigo,
       purple: colors.violet,
       pink: colors.pink,
-
     },
     spacing: {
       px: "1px",
