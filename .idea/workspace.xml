@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0117b014-6766-4250-aeb3-10f8b54c62fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Logo.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/home.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img-home.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seo/page-about/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/seo/page-forRealestate/content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seo/page-home/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/seo/page-landing/content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/page-for-realestate/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/templates/Template-landing.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/page-landing/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/Section-Best-Houses.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/organisms/Header-landing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Header-landing.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/templates/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +61,8 @@
       <workItem from="1609605564595" duration="5145000" />
       <workItem from="1609683956134" duration="12764000" />
       <workItem from="1609777283871" duration="11255000" />
+      <workItem from="1609974259540" duration="599000" />
+      <workItem from="1610145671293" duration="4441000" />
     </task>
     <servers />
   </component>
