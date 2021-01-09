@@ -34,7 +34,7 @@ export default function SectionBestRealEstate() {
 
                 {
                     arrData.map((item, key) =>
-                        <div className="flex justify-center w-full">
+                        <div key={key} className="flex justify-center w-full">
                             <Card img={item.img}
                                   title={item.title}
                                   subtitle={item.subtitle}

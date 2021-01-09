@@ -1,3 +1,23 @@
+## New repository from the command line
+```bash
+echo "# en-arriendo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/BrahianCano/en-arriendo.git
+git push -u origin main
+```
+
+
+## …or push an existing repository from the command line
+
+```bash
+git remote add origin https://github.com/BrahianCano/en-arriendo.git
+git branch -M main
+git push -u origin main
+```
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -28,3 +48,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## JS AND ES6 Coding Standards
+
+_Use the **prettier** extension to format the file according to its extension_
+
+Example
+
+```
+/**
+ * Function 
+ * This is the description of the test function
+ * @paramInput const string paramInput
+ * @return array explanation of the return value  
+ */
+function testFunction(paramInput) {
+    // ...
+    return result;
+}
+```
