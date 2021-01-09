@@ -5,9 +5,9 @@ export default function SectionBestRealEstate() {
 
         const arrData = [{
             img: "https://i.ibb.co/0D03wrT/img2.jpg",
-            title: "Titulo card",
-            subtitle: "subtitle",
-            description: "descripcion card"
+            title: "Titulo card 1",
+            subtitle: "subtitle 1",
+            description: "descripcion card 1"
         },
         {
             img: "https://i.ibb.co/0D03wrT/img2.jpg",
