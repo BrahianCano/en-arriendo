@@ -27,7 +27,7 @@ export default function SectionBestRealEstate() {
     return (
 
         <>
-            <SubHeaderText title="Titulo seccion card"
+            <SubHeaderText title="Titulo seccion card (SEO)"
                            subtitle="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500."
             />
 
