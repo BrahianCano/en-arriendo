@@ -15,7 +15,7 @@ export default function TemplateLanding() {
             <style jsx>{`
 
               section {
-                background-color: #FBFCFC;
+                background-color: #F4F6F7;
                 padding: 3rem 0rem 3rem 0rem;
               }
 
