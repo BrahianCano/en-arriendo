@@ -3,6 +3,7 @@ import Head from "next/head";
 // Import template //
 import TemplateSearchRealestate from "../../components/templates/Template-search-realestate"
 
+
 export default function SearchRealEstate() {
     return (
         <>

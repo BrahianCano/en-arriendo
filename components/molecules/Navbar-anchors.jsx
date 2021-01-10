@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import {useState} from 'react';
 
 // Import icons svg //
@@ -14,11 +15,13 @@ export default function NavbarAnchors() {
     return (
         <>
             <nav className="hidden md:flex space-x-10">
-                <a href="#"
-                   className="text-base flex text-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
-                    <IconSearch color="#52525b" size={24}/>
-                    <span className="ml-1">Buscar arriendo</span>
-                </a>
+                <Link href="/buscar-propiedad">
+                    <a
+                        className="text-base flex text-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                        <IconSearch color="#52525b" size={24}/>
+                        <span className="ml-1">Buscar arriendo</span>
+                    </a>
+                </Link>
                 <a href="#" onClick={() => setShowModal(true)}
                    className="text-base flex text-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
                     <IconPublic color="#52525b" size={22}/>
