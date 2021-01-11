@@ -1,5 +1,15 @@
+// Import icons svg //
 import IconBed from '../../assets/svg/icon-bed'
 
+
+/**
+ * -- PROPS ENTRIES --
+ * @img prop String - The image has to be a separate resource
+ * @title String - The main title
+ * @subtitle String - The secondary subtitle
+ * @description String - The body of the card
+ * @return JSX.Element Card
+ */
 export default function SearchCard({img, title, subtitle, description}) {
     return (
         <>

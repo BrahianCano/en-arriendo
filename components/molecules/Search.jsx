@@ -11,9 +11,10 @@ import IconSearch from "../../assets/svg/icon-search";
 
 /**
  * -- PROPS ENTRIES --
- * @fSumbmit prop Function
- * @textBtn String
- * @return Search
+ * @fSumbmit prop Function - Function capture data
+ * @textBtn String - Button text of action submit
+ * @roundBtn Boolean - Validation for rounded button submit
+ * @return JSX.Element Search
  */
 export default function Search({fSumbmit, textBtn, roundBtn = false}) {
     const {register, handleSubmit} = useForm();
@@ -45,9 +46,15 @@ export default function Search({fSumbmit, textBtn, roundBtn = false}) {
 
         if (textToSearch === '' && valueSearch.show) {
             setValueSearch({...valueSearch, location: textToSearch, show: false})
+
         } else {
             const payload = filterLocations(textToSearch)
-            setValueSearch({arrLocations: payload, location: textToSearch, show: true})
+
+            if (payload.length > 0) {
+                setValueSearch({arrLocations: payload, location: textToSearch, show: true})
+            } else {
+                setValueSearch({arrLocations: payload, location: textToSearch, show: false})
+            }
         }
     }
 
@@ -65,7 +72,10 @@ export default function Search({fSumbmit, textBtn, roundBtn = false}) {
 
 
     return (
-        <form onSubmit={handleSubmit((data) => fSumbmit(data))}
+        <form onSubmit={handleSubmit((data) => {
+            setValueSearch({...valueSearch, show: false})
+            fSumbmit(data)
+        })}
               className={!roundBtn ? "md:flex md:justify-center grid grid-cols-1" : "flex justify-center"}>
 
             <div className="relative rounded-md shadow-sm">
