@@ -9,7 +9,7 @@
 export default function Card({img, title, subtitle, description}) {
     return (
         <>
-            <article className="w-11/12 md:w-4/6 m-3 md:m-5 rounded-md shadow-2xl">
+            <article className="w-11/12 md:w-4/6 m-3 md:m-5 rounded-md shadow-2xl transform transition motion-reduce:transform-none hover:scale-110 duration-500">
 
                 <div className="flex justify-center w-full h-44">
                     <img className="rounded w-full h-full" src={img} alt="PENDIENTE SEO"/>
@@ -30,14 +30,6 @@ export default function Card({img, title, subtitle, description}) {
 
             </article>
 
-            <style jsx>{`
-
-              article:hover {
-                transition: transform .2s;
-                transform: scale(1.03);
-              }
-
-            `}</style>
         </>
     );
 }

@@ -7,14 +7,16 @@
     <list default="true" id="0117b014-6766-4250-aeb3-10f8b54c62fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/molecules/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/DropDawn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/DropDawn.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/molecules/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Form.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Modal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/Navbar-anchors.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-anchors.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/Navbar-logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Logo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/Navbar-mobile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-mobile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/molecules/Search-Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Search-Card.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/molecules/Search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Search.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/SubHeaderText.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/SubHeaderText.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/templates/Template-landing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/templates/Template-landing.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/templates/Template-search-realestate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/templates/Template-search-realestate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/organisms/Header-landing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Header-landing.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/organisms/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +94,7 @@
       <workItem from="1610221283020" duration="621000" />
       <workItem from="1610234301774" duration="16645000" />
       <workItem from="1610311865788" duration="7353000" />
-      <workItem from="1610323220695" duration="4547000" />
+      <workItem from="1610323220695" duration="14077000" />
     </task>
     <servers />
   </component>

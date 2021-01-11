@@ -32,7 +32,8 @@ export default function HeaderLanding() {
             <div className="my-20">
 
                 {/** <!-- Search action.--> */}
-                <Search fSumbmit={onSubmit} textBtn="Buscar"/>
+                <Search fSumbmit={onSubmit}
+                        textBtn="Buscar"/>
             </div>
 
         </section>

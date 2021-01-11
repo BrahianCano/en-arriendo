@@ -2,7 +2,7 @@ import {useState} from 'react';
 
 // Import molecules //
 import NavbarAnchors from '../molecules/Navbar-anchors';
-import NavbarLogo from '../molecules/Navbar-logo';
+import Logo from '../molecules/Logo';
 import NavbarButton from '../molecules/Navbar-button';
 import NavbarMobile from '../molecules/Navbar-mobile';
 
@@ -21,7 +21,7 @@ export default function Navbar() {
                     className="flex justify-between items-center py-4 md:justify-start md:space-x-10">
 
                     {/** <!--Logo webpage.--> */}
-                    <NavbarLogo/>
+                    <Logo/>
 
                     {/** <!--Mobile menu button, show to action.--> */}
                     <div className="-mr-2 -my-2 md:hidden">

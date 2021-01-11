@@ -13,7 +13,7 @@ import IconBed from '../../assets/svg/icon-bed'
 export default function SearchCard({img, title, subtitle, description}) {
     return (
         <>
-            <article className="md:w-11/12 w-full rounded-md shadow-2xl bg-white p-2 my-3">
+            <article className="md:w-11/12 w-full rounded-md shadow-2xl bg-white p-2 my-3 transform transition motion-reduce:transform-none hover:scale-110 duration-500">
                 <h2 className="text-center"> titulo card</h2>
                 <div className="flex my-5">
                     <div>
