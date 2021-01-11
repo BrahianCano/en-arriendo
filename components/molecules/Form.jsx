@@ -3,10 +3,10 @@ import {useForm} from "react-hook-form";
 
 /**
  * -- PROPS ENTRIES --
- * @arrFields prop Array
- * @fSumbmit prop Function
- * @textBtn prop String
- * @return Form
+ * @arrFields prop Array - Fields to be displayed
+ * @fSumbmit prop Function - Capture the form data
+ * @textBtn prop String - Button text of action submit
+ * @return JSX.Element Form
  */
 export default function Form({arrFields, fSumbmit, textBtn}) {
     const {register, handleSubmit, errors} = useForm();

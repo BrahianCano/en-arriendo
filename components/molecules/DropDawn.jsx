@@ -1,12 +1,13 @@
 import {Transition} from "@headlessui/react";
 
+
 /**
  * -- PROPS ENTRIES --
- * @inputOptions prop Array
- * @outOption Function
- * @isShow Boolean
- * @aling String
- * @return DropDawn
+ * @inputOptions prop Array - Options to be displayed
+ * @outOption Function - function return current option
+ * @isShow Boolean - show dropdown
+ * @aling String - Display container
+ * @return JSX.Element DropDawn
  */
 export default function DropDawn({inputOptions, outOption, isShow, aling}) {
 

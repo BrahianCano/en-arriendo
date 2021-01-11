@@ -1,3 +1,9 @@
+/**
+ * -- PROPS ENTRIES --
+ * @title prop String - That does not exceed 15 characters
+ * @subtitle prop String - That does not exceed 90 characters
+ * @return JSX.Element SubHeaderText
+ */
 export default function SubHeaderText({title, subtitle}) {
     return (
         <>
