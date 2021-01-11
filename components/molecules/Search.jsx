@@ -72,7 +72,7 @@ export default function Search({fSumbmit, textBtn, roundBtn = false}) {
 
 
     return (
-        <form onSubmit={handleSubmit((data) => {
+        <form onSubmit={handleSubmit((data, event) => {
             setValueSearch({...valueSearch, show: false})
             fSumbmit(data)
         })}

@@ -11,10 +11,14 @@ import {useForm} from "react-hook-form";
 export default function Form({arrFields, fSumbmit, textBtn}) {
     const {register, handleSubmit, errors} = useForm();
 
+
     return (
         <>
             {/* "handleSubmit" will validate your inputs before invoking "onSubmit" */}
-            <form onSubmit={handleSubmit((data) => fSumbmit(data))}>
+            <form onSubmit={handleSubmit((data, event) => {
+                fSumbmit(data)
+                event.target.reset()
+            })}>
 
                 {/* Show array of fields*/}
                 {
