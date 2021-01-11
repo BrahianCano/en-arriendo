@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0117b014-6766-4250-aeb3-10f8b54c62fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/DropDawn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/DropDawn.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Modal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/Search-Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Search-Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/Search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Search.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/SubHeaderText.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/SubHeaderText.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/templates/Template-landing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/templates/Template-landing.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/templates/Template-search-realestate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/templates/Template-search-realestate.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +53,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -50,7 +66,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Comments" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -70,7 +86,13 @@
       <workItem from="1609777283871" duration="11255000" />
       <workItem from="1609974259540" duration="599000" />
       <workItem from="1610145671293" duration="7597000" />
-      <workItem from="1610207954922" duration="6217000" />
+      <workItem from="1610207954922" duration="9373000" />
+      <workItem from="1610218903404" duration="163000" />
+      <workItem from="1610219081569" duration="1417000" />
+      <workItem from="1610221283020" duration="621000" />
+      <workItem from="1610234301774" duration="16645000" />
+      <workItem from="1610311865788" duration="7353000" />
+      <workItem from="1610323220695" duration="4547000" />
     </task>
     <servers />
   </component>
@@ -88,5 +110,13 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Change configuration tailwind" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change configuration tailwind" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

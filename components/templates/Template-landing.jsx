@@ -1,3 +1,4 @@
+// Import organisms //
 import HeaderLanding from "../organisms/Header-landing";
 import SectionBestRealEstate from "../organisms/Section-best-realestate";
 
@@ -15,7 +16,7 @@ export default function TemplateLanding() {
             <style jsx>{`
 
               section {
-                background-color: #FBFCFC;
+                background-color: #F4F6F7;
                 padding: 3rem 0rem 3rem 0rem;
               }
 

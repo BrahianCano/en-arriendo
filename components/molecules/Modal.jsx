@@ -6,12 +6,12 @@ import IconClose from '../../assets/svg/icon-close';
 
 /**
  * -- PROPS ENTRIES --
- * @title prop String
+ * @title prop String - That does not exceed 40 characters
  * @svg prop JSX-Element
  * @children prop JSX-Element
  * @showModal prop Boolean
  * @setShowModal prop FunctionState
- * @return Modal
+ * @return JSX.Element Modal
  */
 export default function Modal({title = 'Modal title', body = 'Modal body', svg, children, showModal, setShowModal}) {
 
