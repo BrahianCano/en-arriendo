@@ -29,7 +29,7 @@ export default function HeaderLanding() {
                 </h4>
             </div>
 
-            <div className="my-20">
+            <div className="my-10">
 
                 {/** <!-- Search action.--> */}
                 <Search fSumbmit={onSubmit}

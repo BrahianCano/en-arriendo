@@ -8,7 +8,7 @@ import {string, number} from 'prop-types';
  * @viewBox prop int - ex: 24
  * @return IconApartament
  */
-export default function IconApartament({size, color, viewBox}) {
+export default function IconFilter({size, color, viewBox}) {
 
     return (
         <svg
@@ -17,20 +17,20 @@ export default function IconApartament({size, color, viewBox}) {
             width={size}
             height={size}
         >
-            <path fill="none" d="M0 0h24v24H0z"/>
+            <path fill="none"  d="M0 0h24v24H0z"/>
             <path fill={color}
-                  d="M17 11V3H7v4H3v14h8v-4h2v4h8V11h-4zM7 19H5v-2h2v2zm0-4H5v-2h2v2zm0-4H5V9h2v2zm4 4H9v-2h2v2zm0-4H9V9h2v2zm0-4H9V5h2v2zm4 8h-2v-2h2v2zm0-4h-2V9h2v2zm0-4h-2V5h2v2zm4 12h-2v-2h2v2zm0-4h-2v-2h2v2z"/>
+                  d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z" />
         </svg>
     )
 }
 
-IconApartament.prototype = {
+IconFilter.prototype = {
     size: number,
     color: string,
     viewBox: number
 }
 
-IconApartament.defaultProps = {
+IconFilter.defaultProps = {
     size: 24,
     color: '#6744ac',
     viewBox: 24

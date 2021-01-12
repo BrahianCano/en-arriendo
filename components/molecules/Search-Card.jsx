@@ -1,3 +1,5 @@
+import {useRouter} from 'next/router'
+
 // Import icons svg //
 import IconBed from '../../assets/svg/icon-bed'
 
@@ -11,10 +13,24 @@ import IconBed from '../../assets/svg/icon-bed'
  * @return JSX.Element Card
  */
 export default function SearchCard({img, title, subtitle, description}) {
+    const router = useRouter();
+
+    const createSlug = (entry) => {
+        return entry.toString().toLowerCase()
+            .replace(/\s+/g, '-')      // Replace spaces with -
+            .replace(/[^\w\-]+/g, '')  // Remove all non-word chars
+            .replace(/\-\-+/g, '-')    // Replace multiple - with single -
+            .replace(/^-+/, '')        // Trim - from start of text
+            .replace(/-+$/, '');       // Trim - from end of text
+    }
+
+    const slug = createSlug(title);
+
     return (
         <>
-            <article className="md:w-11/12 w-full rounded-md shadow-2xl bg-white p-2 my-3 transform transition motion-reduce:transform-none hover:scale-110 duration-500">
-                <h2 className="text-center"> titulo card</h2>
+            <article onClick={() => router.push(`/buscar-propiedad/${slug}`)}
+                     className="md:w-11/12 w-full rounded-md shadow-2xl bg-white p-2 my-3 transform transition motion-reduce:transform-none hover:scale-110 duration-500">
+                <h2 className="text-center">{title}</h2>
                 <div className="flex my-5">
                     <div>
                         <img src="https://i.ibb.co/0D03wrT/img2.jpg" alt="img" className="max-h-20 max-w-20"></img>

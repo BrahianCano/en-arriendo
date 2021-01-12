@@ -1,12 +1,7 @@
 import Head from "next/head";
-import fetch from 'isomorphic-unfetch';
-
-// Import template //
-import TemplateSearchRealestate from "../../components/templates/Template-search-realestate"
 
 
-export default function SearchRealEstate({post}) {
-
+export default function DescriptionRealEstate() {
     return (
         <>
             <Head>
@@ -31,16 +26,8 @@ export default function SearchRealEstate({post}) {
             </Head>
 
             <main className="mt-20 font-axiformaMedium">
-                <TemplateSearchRealestate dataGetInitialProps={post}/>
+
             </main>
         </>
     )
-}
-
-
-SearchRealEstate.getInitialProps = async () => {
-    const res = await fetch('https://jsonplaceholder.typicode.com/todos/')
-    const post = await res.json()
-
-    return {post}
 }

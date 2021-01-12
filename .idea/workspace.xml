@@ -5,17 +5,139 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0117b014-6766-4250-aeb3-10f8b54c62fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/En-Arriendo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/En-Arriendo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Black.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Black.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Black.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Black.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Black.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Black.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Black.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BlackItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BlackItalic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BlackItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BlackItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BlackItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BlackItalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BlackItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BlackItalic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Bold.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Bold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BoldItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BoldItalic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BoldItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BoldItalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BoldItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BoldItalic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Book.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Book.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Book.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Book.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Book.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Book.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Book.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Book.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BookItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BookItalic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BookItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BookItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BookItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BookItalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BookItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-BookItalic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ExtraBold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ExtraBold.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ExtraBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ExtraBold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ExtraBold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ExtraBold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ExtraBold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ExtraBold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ExtraBoldItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ExtraBoldItalic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ExtraBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ExtraBoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ExtraBoldItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ExtraBoldItalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ExtraBoldItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ExtraBoldItalic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Heavy.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Heavy.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-HeavyItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-HeavyItalic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-HeavyItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-HeavyItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-HeavyItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-HeavyItalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-HeavyItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-HeavyItalic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Italic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Italic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Light.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Light.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Light.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Light.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Light.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-LightItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-LightItalic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-LightItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-LightItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-LightItalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-LightItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-LightItalic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Medium.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Medium.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Medium.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Medium.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-MediumItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-MediumItalic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-MediumItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-MediumItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-MediumItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-MediumItalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-MediumItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-MediumItalic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-SemiBold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-SemiBold.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-SemiBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-SemiBold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-SemiBold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-SemiBold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-SemiBold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-SemiBold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-SemiBoldItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-SemiBoldItalic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-SemiBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-SemiBoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-SemiBoldItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-SemiBoldItalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-SemiBoldItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-SemiBoldItalic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Thin.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Thin.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Thin.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Thin.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Thin.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Thin.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Thin.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-Thin.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ThinItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ThinItalic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ThinItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ThinItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ThinItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ThinItalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ThinItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/Axiforma-ThinItalic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/axiforma/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/axiforma/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/hooks/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/assets/hooks/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/icon-apartament.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-apartament.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/icon-bed.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-bed.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/icon-close.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-close.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/icon-contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/icon-estate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-estate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/icon-farm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-farm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/icon-home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/icon-local.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-local.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/icon-menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/icon-public.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-public.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/icon-search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/icon-search.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/molecules/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/DropDawn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/DropDawn.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/molecules/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/Logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Logo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Modal.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/molecules/Navbar-anchors.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-anchors.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/molecules/Navbar-logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Logo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/Navbar-btnlogin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-btnlogin.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/Navbar-button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-button.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/molecules/Navbar-mobile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Navbar-mobile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/Publish-button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Publish-button.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/molecules/Search-Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Search-Card.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/molecules/Search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/Search.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/molecules/SubHeaderText.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/molecules/SubHeaderText.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/organisms/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/organisms/Header-landing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Header-landing.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/organisms/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/organisms/Publish-realestate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Publish-realestate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/organisms/Section-best-realestate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Section-best-realestate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/organisms/Section-card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Section-card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/organisms/Section-filters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Section-filters.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/organisms/Section-for-realestate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/Section-for-realestate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/templates/Template-landing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/templates/Template-landing.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/templates/Template-search-realestate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/templates/Template-search-realestate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/hello.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/buscar-propiedad/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/buscar-propiedad/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/para-inmobiliarias/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/para-inmobiliarias/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/vercel.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seo/page-forRealestate/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/seo/page-forRealestate/content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seo/page-landing/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/seo/page-landing/content.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +216,8 @@
       <workItem from="1610221283020" duration="621000" />
       <workItem from="1610234301774" duration="16645000" />
       <workItem from="1610311865788" duration="7353000" />
-      <workItem from="1610323220695" duration="14077000" />
+      <workItem from="1610323220695" duration="14347000" />
+      <workItem from="1610379492457" duration="19225000" />
     </task>
     <servers />
   </component>

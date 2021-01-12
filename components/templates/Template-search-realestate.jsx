@@ -3,7 +3,7 @@ import SectionCard from "../organisms/Section-card"
 import SectionFilters from "../organisms/Section-filters";
 
 
-export default function TemplateSearchRealestate() {
+export default function TemplateSearchRealestate({dataGetInitialProps}) {
 
     return (
         <>
@@ -17,7 +17,7 @@ export default function TemplateSearchRealestate() {
                     <div className="grid grid-cols-1 justify-items-center">
 
                         {/** <!-- Card RealEstate.--> */}
-                        <SectionCard/>
+                        <SectionCard dataGetInitialProps={dataGetInitialProps}/>
                     </div>
                 </section>
             </div>

@@ -93,7 +93,7 @@ export default function Search({fSumbmit, textBtn, roundBtn = false}) {
                        placeholder="Municipio, Barrio"
                        ref={register}
                        autoComplete="off"
-                       className="focus:ring-primary focus:border-primary block w-full pl-10 pr-36 sm:text-sm border-gray-300 rounded-md"/>
+                       className="focus:ring-primary focus:border-primary block w-full pl-10 pr-36 md:pr-32 sm:text-sm border-gray-300 rounded-md"/>
 
                 {/** <!--Dropdown autocomplete.--> */}
                 {

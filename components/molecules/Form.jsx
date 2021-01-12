@@ -56,7 +56,7 @@ export default function Form({arrFields, fSumbmit, textBtn}) {
                 }
 
                 {/* Show button action*/}
-                <div className="text-right my-5">
+                <div className="my-5">
                     <button type="submit"
                             className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-primary text-base font-medium text-white hover:bg-primaryDark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary sm:text-sm">
                         {textBtn}

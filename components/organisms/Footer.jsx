@@ -18,26 +18,26 @@ export default function Footer() {
     }
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-2 m-3 text-gray-600">
+        <footer className="grid grid-cols-1 md:grid-cols-3 md:gap-2 mx-3 my-4 text-gray-600">
 
-            <div className="flex flex-col justify-center w-full p-3 md:p-5">
-                <div className="my-3">
+            <div className="flex flex-col justify-center w-full p-2 md:px-5 md:py-2">
+                <div className="my-2">
                     <Logo/>
                 </div>
-                <div className="my-3">
+                <div className="my-2">
                     <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto.</p>
                 </div>
-                <div className="my-3">
+                <div className="my-2">
                     <p>enarriendo@gmail.com</p>
                 </div>
             </div>
 
 
-            <div className="col-span-3 md:col-span-2 flex justify-center w-full p-3 md:p-5">
+            <div className="col-span-3 md:col-span-2 flex justify-center w-full p-3 md:px-5 md:py-2">
                 <div className="grid grid-cols-2 w-full">
                     <div className="flex flex-col items-center my-1 w-full">
-                        <h3 className="font-bold">SERVICIOS</h3>
-                        <ul className="mt-4">
+                        <h5 className="font-bold">SERVICIOS</h5>
+                        <ul className="mt-3">
                             {linkFunction('Inicio', '')}
                             {linkFunction('Buscar propiedad', 'buscar-propiedad')}
                             <PublishButton/>
@@ -45,8 +45,8 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div className="my-1 w-full flex flex-col items-center my-1 w-full">
-                        <h3 className="font-bold">CATEGORIAS</h3>
-                        <ul className="mt-4">
+                        <h5 className="font-bold">CATEGORIAS</h5>
+                        <ul className="mt-3">
                             {linkFunction('Apartamentos', '')}
                             {linkFunction('Casas', '')}
                             {linkFunction('Fincas', '')}
@@ -57,9 +57,9 @@ export default function Footer() {
             </div>
 
 
-            <div className="col-span-3 flex justify-center w-full p-3 md:p-5">
+            <div className="col-span-3 flex justify-center w-full p-3 md:px-5 md:py-2">
                 <p>© 2021 enarriendo.vercel.app</p>
             </div>
-        </div>
+        </footer>
     )
 }
