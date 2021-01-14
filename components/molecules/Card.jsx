@@ -1,3 +1,11 @@
+/**
+ * -- PROPS ENTRIES --
+ * @img prop String - The image has to be a separate resource
+ * @title String - The main title
+ * @subtitle String - The secondary subtitle
+ * @description String - The body of the card
+ * @return JSX.Element Card
+ */
 export default function Card({img, title, subtitle, description}) {
     return (
         <>
@@ -16,11 +24,11 @@ export default function Card({img, title, subtitle, description}) {
                 <div className="flex justify-center w-full my-5">
                     <button
                         className="w-11/12 flex items-center justify-center px-4 py-1.5 border border-transparent rounded-md shadow-sm text-white bg-primary hover:bg-primaryDark">Call
-                        to action
+                        to actionss
                     </button>
                 </div>
 
-            </article>
+            </article> 
 
             <style jsx>{`
 
