@@ -13,7 +13,7 @@ import IconClose from '../../assets/svg/icon-close';
 
 // Import organisms //
 import PublishRealestate from "../organisms/Publish-realestate";
-
+import SectionFilters from "../organisms/Section-filters";
 
 /**
  * -- PROPS ENTRIES --

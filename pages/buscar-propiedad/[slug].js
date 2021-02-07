@@ -1,7 +1,22 @@
 import Head from "next/head";
+import fetch from "isomorphic-unfetch";
+
+// Import Hooks //
+import {SlugFormatter} from '../../assets/hooks/SlugFormatter'
 
 
-export default function DescriptionRealEstate() {
+// Import Firebase //
+import firebase from "../../assets/js/firebase";
+import 'firebase/firestore';
+
+
+/**
+ * -- PROPS ENTRIES --
+ * @payload prop Object - Array captured from the database with the url parameter by getStaticProps
+ * @return JSX.Element SectionCards
+ */
+export default function DescriptionRealEstate({payload}) {
+    console.log(payload)
     return (
         <>
             <Head>
@@ -26,8 +41,98 @@ export default function DescriptionRealEstate() {
             </Head>
 
             <main className="mt-20 font-axiformaMedium">
-
+                <h1>{payload.realestate}</h1>
             </main>
         </>
     )
+}
+
+
+/**
+ * If you export an async function called getStaticProps from a page, Next.js will pre-render
+ * this page at build time using the props returned by getStaticProps.
+ *
+ * https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation
+ */
+export const getStaticProps = async ({params}) => {
+    const {slug} = params
+    const arrParams = slug.split('-');
+
+    const id = arrParams[arrParams.length - 2];
+    const code = arrParams[arrParams.length - 1];
+
+    const db = firebase.firestore(firebase)
+    const docRef = db.collection("Agencies").doc(id);
+    try {
+        const doc = await docRef.get()
+        if (doc.exists) {
+            const {data} = doc.data();
+
+            for (let i = 0; i < data.length; i++) {
+                if (data[i].code === code) {
+                    return {
+                        props: {
+                            payload: data[i]
+                        }
+                    };
+                    break
+                }
+            }
+
+        } else {
+            // doc.data() will be undefined in this case
+            console.log("No such document!");
+        }
+    } catch (err) {
+        console.log('Error getting documents', err);
+    }
+
+}
+
+
+/**
+ * The paths key determines which paths will be pre-rendered.
+ * For example, suppose that you have a page that uses dynamic routes named pages/posts/[id].js.
+ * If you export getStaticPaths from this page and return the following for paths:
+ *
+ * https://nextjs.org/docs/basic-features/data-fetching#getstaticpaths-static-generation
+ */
+export async function getStaticPaths() {
+
+    const db = firebase.firestore(firebase)
+
+    let realestatesRef = db.collection('Agencies');
+    try {
+        let out = []
+        let allRealestates = await realestatesRef.get();
+
+        for (const doc of allRealestates.docs) {
+            const {data} = doc.data();
+            const docId = doc.id;
+
+            data.forEach(element => {
+                element = {...element, id: docId}
+                out.push(element)
+            });
+        }
+
+        return {
+            paths: out.map(post => {
+                const title = `${post.type} en ${post.location}`;
+                const code = post.code;
+                const id = post.id;
+                const slug = SlugFormatter(title, id, code);
+                return {
+                    params: {
+                        slug: slug
+                    }
+                };
+            }),
+
+            fallback: false
+        };
+
+    } catch (err) {
+        console.log('Error getting documents', err);
+    }
 }

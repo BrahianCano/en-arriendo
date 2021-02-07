@@ -4,13 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export -o dist",
+    "build": "next build",
     "start": "next start"
   },
   "dependencies": {
     "@headlessui/react": "^0.2.0",
     "@tailwindcss/forms": "^0.2.1",
     "autoprefixer": "^10.0.4",
+    "firebase": "^8.2.5",
     "isomorphic-unfetch": "^3.1.0",
     "next": "10.0.3",
     "postcss": "^8.1.14",
