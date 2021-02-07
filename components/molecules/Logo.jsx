@@ -1,10 +1,10 @@
 import Link from "next/link";
 
 
-export default function NavbarLogo() {
+export default function Logo() {
 
     return (
-        <div className="flex justify-start lg:w-0 lg:flex-1">
+        <div className="lg:flex-1">
             <Link href="/">
                 <a>
                     <span className="sr-only">En arriendo</span>

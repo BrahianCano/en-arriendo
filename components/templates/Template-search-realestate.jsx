@@ -3,7 +3,12 @@ import SectionCard from "../organisms/Section-card"
 import SectionFilters from "../organisms/Section-filters";
 
 
-export default function TemplateSearchRealestate() {
+/**
+ * -- PROPS ENTRIES --
+ * @InitialProps prop Object -  Array of properties.
+ * @return JSX.Element TemplateSearchRealestate
+ */
+export default function TemplateSearchRealestate({InitialProps}) {
 
     return (
         <>
@@ -16,8 +21,8 @@ export default function TemplateSearchRealestate() {
                 <section className="col-span-3 w-full px-2 md:px-0 py-8">
                     <div className="grid grid-cols-1 justify-items-center">
 
-                        {/** <!-- Card RealEstate.--> */}
-                        <SectionCard/>
+                        {/** <!-- Dinamic cards RealEstate.--> */}
+                        <SectionCard InitialProps={InitialProps}/>
                     </div>
                 </section>
             </div>

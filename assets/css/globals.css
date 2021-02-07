@@ -4,10 +4,14 @@
 
 @font-face {
     font-family: 'axiforma-heavy';
+    font-style: normal;
     src: local('axiforma'), url(../fonts/axiforma/Axiforma-Heavy.woff) format('truetype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'axiforma-medium';
+    font-style: normal;
     src: local('axiforma'), url(../fonts/axiforma/Axiforma-Medium.woff) format('truetype');
+    font-display: swap;
 }

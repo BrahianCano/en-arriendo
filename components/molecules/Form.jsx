@@ -11,10 +11,14 @@ import {useForm} from "react-hook-form";
 export default function Form({arrFields, fSumbmit, textBtn}) {
     const {register, handleSubmit, errors} = useForm();
 
+
     return (
         <>
             {/* "handleSubmit" will validate your inputs before invoking "onSubmit" */}
-            <form onSubmit={handleSubmit((data) => fSumbmit(data))}>
+            <form onSubmit={handleSubmit((data, event) => {
+                fSumbmit(data)
+                event.target.reset()
+            })}>
 
                 {/* Show array of fields*/}
                 {
@@ -52,7 +56,7 @@ export default function Form({arrFields, fSumbmit, textBtn}) {
                 }
 
                 {/* Show button action*/}
-                <div className="text-right my-5">
+                <div className="my-5">
                     <button type="submit"
                             className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-primary text-base font-medium text-white hover:bg-primaryDark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary sm:text-sm">
                         {textBtn}

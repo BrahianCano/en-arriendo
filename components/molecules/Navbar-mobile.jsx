@@ -13,7 +13,7 @@ import IconClose from '../../assets/svg/icon-close';
 
 // Import organisms //
 import PublishRealestate from "../organisms/Publish-realestate";
-
+import SectionFilters from "../organisms/Section-filters";
 
 /**
  * -- PROPS ENTRIES --
@@ -65,14 +65,18 @@ export default function NavbarMobile({isOpenMenu, setIsOpenMenu}) {
                                         {/** <!--Links redirect.--> */}
                                         <nav className="grid gap-y-8">
 
-                                            <a href="#"
-                                               className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                                            <Link href="/buscar-propiedad">
+                                                <a onClick={() => {
+                                                    setIsOpenMenu(false);
+                                                }}
+                                                   className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
 
-                                                <IconSearch size={26} className="flex-shrink-0 h-6 w-6"/>
-                                                <span className="ml-3 text-base text-gray-900">
+                                                    <IconSearch size={26} className="flex-shrink-0 h-6 w-6"/>
+                                                    <span className="ml-3 text-base text-gray-900">
                                                 Buscar arriendo
                                             </span>
-                                            </a>
+                                                </a>
+                                            </Link>
 
                                             <a href="#" onClick={() => {
                                                 setShowModal(true);
