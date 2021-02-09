@@ -1,20 +1,19 @@
-import {useEffect} from 'react'
 import Head from "next/head";
-import fetch from 'isomorphic-unfetch';
 
 // Import template //
 import TemplateSearchRealestate from "../../components/templates/Template-search-realestate"
 
-// Import Firebase //
-import firebase from "../../assets/js/firebase";
-import 'firebase/firestore';
+// Import hooks //
+import GetMultipleDocs from "../../assets/hooks/GetMultipleDocs";
+
 
 /**
  * -- PROPS ENTRIES --
- * @payload prop Object - Array of properties obtained from the database by getInitialProps
+ * @props prop Object - Array of properties obtained from the database by getStaticProps
  * @return JSX.Element SearchRealEstate
  */
-export default function SearchRealEstate({payload}) {
+export default function SearchRealEstate({props}) {
+    const {payload} = props;
 
     return (
         <>
@@ -40,7 +39,7 @@ export default function SearchRealEstate({payload}) {
             </Head>
 
             <main className="mt-20 font-axiformaMedium">
-                <TemplateSearchRealestate InitialProps={payload}/>
+                <TemplateSearchRealestate StaticProps={payload}/>
             </main>
         </>
     )
@@ -48,32 +47,16 @@ export default function SearchRealEstate({payload}) {
 
 
 /**
- * getInitialProps enables server-side rendering in a page and allows you to do initial data population,
- * it means sending the page with the data already populated from the server. This is especially useful for SEO.
+ * If you export an async function called getStaticProps from a page, Next.js will pre-render
+ * this page at build time using the props returned by getStaticProps.
  *
- * https://nextjs.org/docs/api-reference/data-fetching/getInitialProps
+ * https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation
  */
-SearchRealEstate.getInitialProps = async () => {
-    const db = firebase.firestore(firebase)
 
-    let realestatesRef = db.collection('Agencies');
-    try {
-        let out = []
-        let allRealestates = await realestatesRef.get();
-        for (const doc of allRealestates.docs) {
-            const {data} = doc.data();
-            const docId = doc.id;
+export async function getStaticProps() {
+    const out = await GetMultipleDocs('Agencies');
 
-            data.forEach(element => {
-                element = {...element, id: docId}
-                out.push(element)
-            });
-        }
-        return {
-            payload: out
-        };
-    } catch (err) {
-        console.log('Error getting documents', err);
+    return {
+        props: {props: out}, // will be passed to the page component as props
     }
-
 }
