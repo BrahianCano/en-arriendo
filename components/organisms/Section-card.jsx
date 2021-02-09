@@ -4,26 +4,25 @@ import SearchCard from "../molecules/Search-Card"
 
 /**
  * -- PROPS ENTRIES --
- * @InitialProps prop Object -  Array of properties to generate multiple cards
+ * @StaticProps prop Object -  Array of properties to generate multiple cards
  * @return JSX.Element SectionCards
  */
-export default function SectionCards({InitialProps}) {
+export default function SectionCards({StaticProps}) {
 
     return (
         <>
             {
-                InitialProps.map((value, key) =>
+                StaticProps.map((value, key) =>
                     <SearchCard key={key}
                                 img="https://i.ibb.co/0D03wrT/img2.jpg"
-                                title={`${value.type} en ${value.location}`}
+                                location={value.location}
                                 code={value.code}
                                 id={value.id}
-                                subtitle="subtitle card new"
-                                description="description of card new"
+                                type={value.type}
+                                price={value.price}
                     />
                 )
             }
-
         </>
     );
 }

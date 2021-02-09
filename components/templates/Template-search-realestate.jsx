@@ -8,7 +8,7 @@ import SectionFilters from "../organisms/Section-filters";
  * @InitialProps prop Object -  Array of properties.
  * @return JSX.Element TemplateSearchRealestate
  */
-export default function TemplateSearchRealestate({InitialProps}) {
+export default function TemplateSearchRealestate({StaticProps}) {
 
     return (
         <>
@@ -22,7 +22,7 @@ export default function TemplateSearchRealestate({InitialProps}) {
                     <div className="grid grid-cols-1 justify-items-center">
 
                         {/** <!-- Dinamic cards RealEstate.--> */}
-                        <SectionCard InitialProps={InitialProps}/>
+                        <SectionCard StaticProps={StaticProps}/>
                     </div>
                 </section>
             </div>

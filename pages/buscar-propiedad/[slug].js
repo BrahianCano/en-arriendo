@@ -1,22 +1,19 @@
 import Head from "next/head";
-import fetch from "isomorphic-unfetch";
 
 // Import Hooks //
-import {SlugFormatter} from '../../assets/hooks/SlugFormatter'
-
-
-// Import Firebase //
-import firebase from "../../assets/js/firebase";
-import 'firebase/firestore';
+import {SlugFormatter} from '../../assets/hooks/SlugFormatter';
+import {GetObjDocument} from '../../assets/hooks/GetDocument';
+import GetMultipleDocs from "../../assets/hooks/GetMultipleDocs";
 
 
 /**
  * -- PROPS ENTRIES --
- * @payload prop Object - Array captured from the database with the url parameter by getStaticProps
+ * @props prop Object - Array captured from the database with the url parameter by getStaticProps
  * @return JSX.Element SectionCards
  */
-export default function DescriptionRealEstate({payload}) {
-    console.log(payload)
+export default function DescriptionRealEstate({props}) {
+    const {payload} = props;
+
     return (
         <>
             <Head>
@@ -61,30 +58,10 @@ export const getStaticProps = async ({params}) => {
     const id = arrParams[arrParams.length - 2];
     const code = arrParams[arrParams.length - 1];
 
-    const db = firebase.firestore(firebase)
-    const docRef = db.collection("Agencies").doc(id);
-    try {
-        const doc = await docRef.get()
-        if (doc.exists) {
-            const {data} = doc.data();
+    const out = await GetObjDocument('Agencies', id, code);
 
-            for (let i = 0; i < data.length; i++) {
-                if (data[i].code === code) {
-                    return {
-                        props: {
-                            payload: data[i]
-                        }
-                    };
-                    break
-                }
-            }
-
-        } else {
-            // doc.data() will be undefined in this case
-            console.log("No such document!");
-        }
-    } catch (err) {
-        console.log('Error getting documents', err);
+    return {
+        props: {props: out}, // will be passed to the page component as props
     }
 
 }
@@ -98,41 +75,18 @@ export const getStaticProps = async ({params}) => {
  * https://nextjs.org/docs/basic-features/data-fetching#getstaticpaths-static-generation
  */
 export async function getStaticPaths() {
+    const {payload} = await GetMultipleDocs('Agencies');
 
-    const db = firebase.firestore(firebase)
+    return {
+        paths: payload.map(doc => {
+            const slug = SlugFormatter(doc.type, doc.location, doc.id, doc.code);
 
-    let realestatesRef = db.collection('Agencies');
-    try {
-        let out = []
-        let allRealestates = await realestatesRef.get();
+            return {
+                params: {slug: slug}
+            };
+        }),
 
-        for (const doc of allRealestates.docs) {
-            const {data} = doc.data();
-            const docId = doc.id;
+        fallback: false
+    };
 
-            data.forEach(element => {
-                element = {...element, id: docId}
-                out.push(element)
-            });
-        }
-
-        return {
-            paths: out.map(post => {
-                const title = `${post.type} en ${post.location}`;
-                const code = post.code;
-                const id = post.id;
-                const slug = SlugFormatter(title, id, code);
-                return {
-                    params: {
-                        slug: slug
-                    }
-                };
-            }),
-
-            fallback: false
-        };
-
-    } catch (err) {
-        console.log('Error getting documents', err);
-    }
 }
