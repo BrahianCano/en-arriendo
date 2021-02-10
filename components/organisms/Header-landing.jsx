@@ -24,7 +24,7 @@ export default function HeaderLanding() {
                     para posicionamiento
                 </h1>
 
-                <h4 className="my-3 text-base text-gray-500 md:text-xl">
+                <h4 className="text-2xl md:text-3xl text-gray-500 my-3">
                     Slogan y llamado a la accion
                 </h4>
             </div>

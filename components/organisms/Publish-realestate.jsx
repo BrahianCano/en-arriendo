@@ -39,7 +39,7 @@ export default function PublishRealestate({showModal, setShowModal}) {
         <>
             <Modal
                 title="Publicar propiedad"
-                body="Publica tu propiedad en tan solo 1 minuto"
+                body="Publica tu propiedad en tan solo 1"
                 svg={<IconPublic/>}
                 showModal={showModal}
                 setShowModal={setShowModal}

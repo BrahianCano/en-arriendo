@@ -32,14 +32,14 @@ export default function Form({arrFields, fSumbmit, textBtn}) {
                                     /* If {inputItem.type} is different from "select" it renders <input>, otherwise it renders <select> */
                                     inputItem.type !== "select" ?
                                         <input type={inputItem.type} name={inputItem.name}
-                                               className="focus:ring-primary focus:border-primary block w-full pl-3 pr-12 sm:text-sm border-gray-300 rounded-md"
+                                               className="focus:ring-primary focus:border-primary block w-full pl-3 pr-12 border-gray-300 rounded-md"
                                                placeholder={inputItem.placeholder}
                                                ref={register({required: true})}/>
                                         :
 
                                         /* Otherwise render select*/
                                         <select name={inputItem.name} ref={register({required: true})}
-                                                className="focus:ring-primary focus:border-primary block w-full pl-3 pr-12 sm:text-sm border-gray-300 rounded-md">
+                                                className="focus:ring-primary focus:border-primary block w-full pl-3 pr-12 border-gray-300 rounded-md">
                                             {
                                                 inputItem.options.map((itemOption, key) =>
                                                     <option key={key} value={itemOption}>{itemOption}</option>
@@ -58,7 +58,7 @@ export default function Form({arrFields, fSumbmit, textBtn}) {
                 {/* Show button action*/}
                 <div className="my-5">
                     <button type="submit"
-                            className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-primary text-base font-medium text-white hover:bg-primaryDark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary sm:text-sm">
+                            className="inline-flex items-center justify-center px-4 py-2.5 w-full border border-transparent rounded-md shadow-sm text-base text-white bg-primary hover:bg-primaryDark">
                         {textBtn}
                     </button>
                 </div>

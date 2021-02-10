@@ -9,19 +9,19 @@ export default function SectionBestRealEstate() {
             img: "https://i.ibb.co/0D03wrT/img2.jpg",
             title: "Titulo card 1",
             subtitle: "subtitle 1",
-            description: "descripcion card 1"
+            description: "descripcion card 1 descripcion card 1 descripcion card 1 descripcion card 1 descripcion card 1"
         },
         {
             img: "https://i.ibb.co/0D03wrT/img2.jpg",
             title: "Titulo card 2",
             subtitle: "subtitle 2",
-            description: "descripcion card 2"
+            description: "descripcion card 1 descripcion card 1 descripcion card 1 descripcion card 1 descripcion card 1"
         },
         {
             img: "https://i.ibb.co/0D03wrT/img2.jpg",
             title: "Titulo card 3",
             subtitle: "subtitle 3",
-            description: "descripcion card 3"
+            description: "descripcion card 1 descripcion card 1 descripcion card 1 descripcion card 1 descripcion card 1"
         }]
 
     return (

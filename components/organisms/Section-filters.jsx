@@ -23,8 +23,8 @@ export default function SectionFilters() {
             name: "inpu6", placeholder: "Habitaciones", type: "select",
             options: ["1", "2", "3", "4", "Más"]
         },
-        {name: "inpu2", placeholder: "Desde $", type: "number"},
-        {name: "inpu3", placeholder: "Hasta $", type: "number"}
+        {name: "inpu2", placeholder: "Precio desde", type: "number"},
+        {name: "inpu3", placeholder: "Precio hasta", type: "number"}
     ]
 
 
@@ -56,7 +56,7 @@ export default function SectionFilters() {
                     {/** <!-- Button show DropDawn sort by.--> */}
                     <button type="button"
                             onClick={() => setShowDropDown(true)}
-                            className={`w-full whitespace-nowrap inline-flex items-center justify-center px-4 py-2 rounded-${roundBtn} text-white bg-primary hover:bg-primaryDark`}
+                            className={`w-full inline-flex items-center justify-center px-4 py-2.5 rounded-${roundBtn} shadow-sm text-base text-white bg-primary hover:bg-primaryDark`}
                             id="options-menu" aria-haspopup="true" aria-expanded="true">
                         Ordenar
 
@@ -116,7 +116,7 @@ export default function SectionFilters() {
 
 
     return (
-        <div className="w-full flex flex-col px-2 md:px-5 md:my-8">
+        <div className="w-full flex flex-col px-2 md:px-4 md:my-8">
 
             {/** <!-- Search action.--> */}
             <Search roundBtn={true}
@@ -124,18 +124,9 @@ export default function SectionFilters() {
 
             {/** <!-- "Form filters" and "dropdawn sort by" in desktop.--> */}
             <div className="hidden md:block my-5">
-                <div className="my-5">
-                    <h5 className="text-gray-600 inline-flex">
-                        <i className="mr-1">
-                            <IconFilter color="#52525b"/>
-                        </i>
-                        FILTRAR</h5>
-                    <hr/>
 
-                    {/** <!-- componentForm.--> */}
-                    {componentForm(fieldsFilter, 'Aplicar')}
-                </div>
-                <div className="my-10">
+                {/** <!--Order by.--> */}
+                <div className="my-5">
                     <h5 className="text-gray-600 inline-flex">
                         <i className="mr-1">
                             <IconSort color="#52525b"/>
@@ -145,6 +136,19 @@ export default function SectionFilters() {
 
                     {/** <!-- componentSortBy.--> */}
                     {componentSortBy('lg')}
+                </div>
+
+                {/** <!--Filter by.--> */}
+                <div className="my-10">
+                    <h5 className="text-gray-600 inline-flex">
+                        <i className="mr-1">
+                            <IconFilter color="#52525b"/>
+                        </i>
+                        FILTRAR</h5>
+                    <hr/>
+
+                    {/** <!-- componentForm.--> */}
+                    {componentForm(fieldsFilter, 'Aplicar')}
                 </div>
             </div>
 
@@ -156,7 +160,8 @@ export default function SectionFilters() {
 
                     {/** <!-- Button show modal filter.--> */}
                     <button
-                        className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 w-full rounded-l-lg text-white hover:bg-primaryDark"
+                        className="inline-flex items-center justify-center px-4 py-2.5 w-full rounded-l-lg shadow-sm text-base text-white bg-primary hover:bg-primaryDark"
+
                         onClick={() => setShowModal(true)}>
                         <span className="mr-1">
                              <IconFilter color="#FFFFFF"/>
