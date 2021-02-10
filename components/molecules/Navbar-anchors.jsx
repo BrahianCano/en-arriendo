@@ -14,7 +14,7 @@ export default function NavbarAnchors() {
             <nav className="hidden md:flex space-x-10">
                 <Link href="/buscar-propiedad">
                     <a
-                        className="text-base flex text-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                        className="flex text-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
                         <IconSearch color="#52525b" size={24}/>
                         <span className="ml-1">Buscar arriendo</span>
                     </a>

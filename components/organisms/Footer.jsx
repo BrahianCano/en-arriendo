@@ -9,7 +9,7 @@ export default function Footer() {
         return (
             <li className="text-center my-2">
                 <Link href={`/${link}`}>
-                    <a className="text-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                    <a className="rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
                         {label}
                     </a>
                 </Link>
@@ -18,7 +18,7 @@ export default function Footer() {
     }
 
     return (
-        <footer className="grid grid-cols-1 md:grid-cols-3 md:gap-2 mx-3 my-4 text-gray-600">
+        <footer className="grid grid-cols-1 md:grid-cols-3 md:gap-2 mx-3 my-4 text-gray-600 font-axiformaMedium">
 
             <div className="flex flex-col justify-center w-full p-2 md:px-5 md:py-2">
                 <div className="my-2">
