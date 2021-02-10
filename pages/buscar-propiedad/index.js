@@ -3,8 +3,18 @@ import Head from "next/head";
 // Import template //
 import TemplateSearchRealestate from "../../components/templates/Template-search-realestate"
 
+// Import hooks //
+import GetMultipleDocs from "../../assets/hooks/GetMultipleDocs";
 
-export default function SearchRealEstate() {
+
+/**
+ * -- PROPS ENTRIES --
+ * @props prop Object - Array of properties obtained from the database by getStaticProps
+ * @return JSX.Element SearchRealEstate
+ */
+export default function SearchRealEstate({props}) {
+    const {payload} = props;
+
     return (
         <>
             <Head>
@@ -29,8 +39,24 @@ export default function SearchRealEstate() {
             </Head>
 
             <main className="mt-20 font-axiformaMedium">
-               <TemplateSearchRealestate/>
+                <TemplateSearchRealestate StaticProps={payload}/>
             </main>
         </>
     )
+}
+
+
+/**
+ * If you export an async function called getStaticProps from a page, Next.js will pre-render
+ * this page at build time using the props returned by getStaticProps.
+ *
+ * https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation
+ */
+
+export async function getStaticProps() {
+    const out = await GetMultipleDocs('Agencies');
+
+    return {
+        props: {props: out}, // will be passed to the page component as props
+    }
 }

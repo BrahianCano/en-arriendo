@@ -57,9 +57,9 @@ export default function Modal({title = 'Modal title', body = 'Modal body', svg, 
                                         {/* Modal svg*/}
                                         {svg}
                                     </div>
-                                    <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
+                                    <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left w-full md:pr-10">
 
-                                        <h3 className="text-lg leading-6 text-gray-900" id="modal-headline">
+                                        <h3 className="text-2xl leading-6 text-gray-900" id="modal-headline">
 
                                             {/* Modal title*/}
                                             {title}
@@ -67,7 +67,9 @@ export default function Modal({title = 'Modal title', body = 'Modal body', svg, 
                                         <div className="mt-2 text-left">
 
                                             {/* Modal body*/}
-                                            <p className="my-2 text-center sm:text-left text-sm text-gray-500">{body}</p>
+                                            <p className="my-2 text-center sm:text-left text-base text-gray-500">
+                                                {body}
+                                            </p>
                                             {children}
                                         </div>
 

@@ -13,7 +13,7 @@ import IconClose from '../../assets/svg/icon-close';
 
 // Import organisms //
 import PublishRealestate from "../organisms/Publish-realestate";
-
+import SectionFilters from "../organisms/Section-filters";
 
 /**
  * -- PROPS ENTRIES --
@@ -72,7 +72,7 @@ export default function NavbarMobile({isOpenMenu, setIsOpenMenu}) {
                                                    className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
 
                                                     <IconSearch size={26} className="flex-shrink-0 h-6 w-6"/>
-                                                    <span className="ml-3 text-base text-gray-900">
+                                                    <span className="ml-3 text-gray-900">
                                                 Buscar arriendo
                                             </span>
                                                 </a>
@@ -85,7 +85,7 @@ export default function NavbarMobile({isOpenMenu, setIsOpenMenu}) {
                                                className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
 
                                                 <IconPublic size={24} className="flex-shrink-0 h-6 w-6"/>
-                                                <span className="ml-3 text-base text-gray-900">
+                                                <span className="ml-3 text-gray-900">
                                                 Publicar propiedad
                                             </span>
                                             </a>
@@ -98,22 +98,22 @@ export default function NavbarMobile({isOpenMenu, setIsOpenMenu}) {
                                     {/** <!--Anchors to action.--> */}
                                     <div className="grid grid-cols-2 gap-y-4">
 
-                                        <a href="#" className="text-base flex text-gray-900 hover:text-gray-700">
+                                        <a href="#" className=" flex text-gray-900 hover:text-gray-700">
                                             <IconHome size="24"/>
                                             <span className="ml-1">Casas</span>
                                         </a>
 
-                                        <a href="#" className="text-base flex text-gray-900 hover:text-gray-700">
+                                        <a href="#" className=" flex text-gray-900 hover:text-gray-700">
                                             <IconApartament size="24"/>
                                             <span className="ml-1">Apartamentos</span>
                                         </a>
 
-                                        <a href="#" className="text-base flex text-gray-900 hover:text-gray-700">
+                                        <a href="#" className=" flex text-gray-900 hover:text-gray-700">
                                             <IconFarm size="24"/>
                                             <span className="ml-1">Fincas</span>
                                         </a>
 
-                                        <a href="#" className="text-base flex text-gray-900 hover:text-gray-700">
+                                        <a href="#" className=" flex text-gray-900 hover:text-gray-700">
                                             <IconLocal size="24"/>
                                             <span className="ml-1">Locales</span>
                                         </a>
@@ -123,10 +123,10 @@ export default function NavbarMobile({isOpenMenu, setIsOpenMenu}) {
                                     {/** <!--Button for companies.--> */}
                                     <div>
                                         <Link href="/para-inmobiliarias">
-                                            <a onClick={() => setIsOpenMenu(false)}
-                                               className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base text-white bg-primary hover:bg-primaryDark">
+                                            <button onClick={() => setIsOpenMenu(false)}
+                                               className="inline-flex items-center justify-center px-4 py-2.5 w-full md:w-32 border border-transparent rounded-md shadow-sm text-base text-white bg-primary hover:bg-primaryDark">
                                                 Para Inmobiliarias
-                                            </a>
+                                            </button>
                                         </Link>
                                     </div>
                                 </div>

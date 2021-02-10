@@ -12,14 +12,14 @@ export default function PublishButton({showIcon = false}) {
 
     return (
         <>
-            <a href="#" onClick={() => setShowModal(true)}
-               className="flex text-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+            <button onClick={() => setShowModal(true)}
+                    className="flex text-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
                 {
                     showIcon &&
                     <IconPublic color="#52525b" size={22}/>
                 }
                 <span className="ml-1">Publicar propiedad</span>
-            </a>
+            </button>
             <PublishRealestate showModal={showModal} setShowModal={setShowModal}/>
         </>
 

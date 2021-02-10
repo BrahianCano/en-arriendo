@@ -6,7 +6,7 @@ import SectionBestRealEstate from "../organisms/Section-best-realestate";
 export default function TemplateLanding() {
     return (
         <>
-            <div className="font-axiformaMedium w-full flex flex-col justify-center mt-20 ">
+            <div className="w-full flex flex-col justify-center">
                 <HeaderLanding/>
                 <section>
                     <SectionBestRealEstate/>

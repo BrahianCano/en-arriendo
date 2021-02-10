@@ -93,7 +93,7 @@ export default function Search({fSumbmit, textBtn, roundBtn = false}) {
                        placeholder="Municipio, Barrio"
                        ref={register}
                        autoComplete="off"
-                       className="focus:ring-primary focus:border-primary block w-full pl-10 pr-36 sm:text-sm border-gray-300 rounded-md"/>
+                       className="focus:ring-primary focus:border-primary block w-full pl-10 pr-36 md:pr-31 border-gray-300 rounded-md"/>
 
                 {/** <!--Dropdown autocomplete.--> */}
                 {
@@ -111,7 +111,7 @@ export default function Search({fSumbmit, textBtn, roundBtn = false}) {
                     <label htmlFor="category" className="sr-only">Category</label>
                     <select name="category"
                             ref={register}
-                            className="focus:ring-primary focus:primary h-full py-0 pl-2 pr-7 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md">
+                            className="focus:ring-primary focus:primary h-full py-0 pl-2 pr-7 border-transparent bg-transparent text-gray-500 rounded-md">
                         <option>Apartamento</option>
                         <option>Casa</option>
                         <option>Local</option>
@@ -124,13 +124,14 @@ export default function Search({fSumbmit, textBtn, roundBtn = false}) {
             {!roundBtn ?
 
                 <div className="my-3 md:my-0 mx-0 md:mx-5">
-                    <input
-                        className="whitespace-nowrap w-full md:w-32 inline-flex items-center justify-center px-4 py-1.5 border border-transparent rounded-md shadow-sm text-base text-white bg-primary hover:bg-primaryDark"
-                        value={textBtn}
-                        type="submit"/>
+                    <button
+                        className="inline-flex items-center justify-center px-4 py-2.5 w-full md:w-32 border border-transparent rounded-md shadow-sm text-base text-white bg-primary hover:bg-primaryDark"
+                        type="submit">
+                        {textBtn}
+                    </button>
                 </div> :
 
-                <div className="ml-3">
+                <div className="ml-1.5">
                     <button
                         className="rounded-full h-10 w-10 flex bg-primary hover:bg-primaryDark items-center justify-center"
                         type="submit">
