@@ -50,13 +50,12 @@ export default function SectionFilters() {
      */
     const componentSortBy = (roundBtn) => {
         return (
-            <div className="relative inline-block text-left w-full">
-                <div>
+            <div className="relative w-full h-full">
 
                     {/** <!-- Button show DropDawn sort by.--> */}
                     <button type="button"
                             onClick={() => setShowDropDown(true)}
-                            className={`w-full inline-flex items-center justify-center px-4 py-2.5 rounded-${roundBtn} shadow-sm text-base text-white bg-primary hover:bg-primaryDark`}
+                            className={`inline-flex items-center justify-center px-4 py-2.5 w-full h-full rounded-${roundBtn} shadow-md text-base text-white bg-primary hover:bg-primaryDark`}
                             id="options-menu" aria-haspopup="true" aria-expanded="true">
                         Ordenar
 
@@ -67,7 +66,6 @@ export default function SectionFilters() {
                                   clipRule="evenodd"/>
                         </svg>
                     </button>
-                </div>
 
                 {/** <!-- Options DropDawn sort by.--> */}
                 <DropDawn isShow={showDropDown}
@@ -116,7 +114,7 @@ export default function SectionFilters() {
 
 
     return (
-        <div className="w-full flex flex-col px-2 md:px-4 md:my-8">
+        <div className="w-full flex flex-col px-2 md:px-10 md:my-8">
 
             {/** <!-- Search action.--> */}
             <Search roundBtn={true}
@@ -131,7 +129,7 @@ export default function SectionFilters() {
                         <i className="mr-1">
                             <IconSort color="#52525b"/>
                         </i>
-                        ORDENAR</h5>
+                        Ordenar</h5>
                     <hr className="mb-5"/>
 
                     {/** <!-- componentSortBy.--> */}
@@ -144,7 +142,7 @@ export default function SectionFilters() {
                         <i className="mr-1">
                             <IconFilter color="#52525b"/>
                         </i>
-                        FILTRAR</h5>
+                        Filtrar</h5>
                     <hr/>
 
                     {/** <!-- componentForm.--> */}
@@ -160,7 +158,7 @@ export default function SectionFilters() {
 
                     {/** <!-- Button show modal filter.--> */}
                     <button
-                        className="inline-flex items-center justify-center px-4 py-2.5 w-full rounded-l-lg shadow-sm text-base text-white bg-primary hover:bg-primaryDark"
+                        className="inline-flex items-center justify-center px-4 py-2.5 w-full rounded-l-lg shadow-md text-base text-white bg-primary hover:bg-primaryDark"
 
                         onClick={() => setShowModal(true)}>
                         <span className="mr-1">

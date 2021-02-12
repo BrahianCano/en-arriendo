@@ -23,7 +23,7 @@ export default function SearchCard({img, location, type, id, code, price}) {
 
     return (
         <article onClick={() => router.push(`/buscar-propiedad/${slug}`)}
-                 className="md:w-11/12 w-full rounded-md shadow-2xl bg-white p-2 my-3 transform transition motion-reduce:transform-none hover:scale-105 duration-500">
+                 className="md:w-11/12 w-full rounded-md shadow-xl bg-white p-2 my-3 transform transition motion-reduce:transform-none hover:scale-105 duration-500">
 
             <h2 className="text-center">{type} en {location}</h2>
             <div className="flex my-5">

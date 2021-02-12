@@ -11,7 +11,7 @@ export default function NavbarAnchors() {
 
     return (
         <>
-            <nav className="hidden md:flex space-x-10">
+            <nav className="hidden md:flex space-x-10 opacity-100">
                 <Link href="/buscar-propiedad">
                     <a
                         className="flex text-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">

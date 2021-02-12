@@ -12,14 +12,14 @@ export default function TemplateSearchRealestate({StaticProps}) {
 
     return (
         <>
-            <div className="grid grid-cols-1 md:grid-cols-4 justify-items-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 md:mx-20 justify-items-center">
 
                 {/** <!-- SECTION LEFT FILTERS.--> */}
                 <SectionFilters/>
 
                 {/** <!-- SECTION RIGTH CARD.--> */}
-                <section className="col-span-3 w-full px-2 md:px-0 py-8">
-                    <div className="grid grid-cols-1 justify-items-center">
+                <section className="col-span-2 w-full px-2 md:px-0 py-7 rounded-md bg-gradient-to-t md:bg-gradient-to-b from-lightgray">
+                    <div className="grid grid-cols-1 justify-items-center ">
 
                         {/** <!-- Dinamic cards RealEstate.--> */}
                         <SectionCard StaticProps={StaticProps}/>
@@ -27,13 +27,6 @@ export default function TemplateSearchRealestate({StaticProps}) {
                 </section>
             </div>
 
-            <style jsx>{`
-
-              section {
-                background-color: #F4F6F7;
-              }
-
-            `}</style>
 
         </>
     );
