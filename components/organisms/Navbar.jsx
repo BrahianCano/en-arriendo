@@ -15,7 +15,7 @@ export default function Navbar() {
 
     return (
 
-        <header className="fixed z-40 top-0 shadow-md bg-lightgray opacity-97 w-full font-axiformaMedium">
+        <header className="fixed z-40 top-0 shadow-md bg-lightgray opacity-96 w-full font-axiformaMedium">
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
                 <div
                     className="flex justify-between items-center py-4 md:justify-start md:space-x-10">
