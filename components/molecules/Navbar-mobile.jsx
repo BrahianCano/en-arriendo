@@ -52,7 +52,7 @@ export default function NavbarMobile({isOpenMenu, setIsOpenMenu}) {
                                         {/** <!--Mobile menu button, hidden to action.--> */}
                                         <div className="-mr-2">
                                             <button type="button" onClick={() => setIsOpenMenu(false)}
-                                                    className="rounded-md p-2 inline-flex items-center justify-center bg-gray-100">
+                                                    className="rounded-md p-2 inline-flex items-center justify-center bg-third focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primaryDark">
                                                 <IconClose size="26"/>
                                             </button>
                                         </div>
@@ -128,7 +128,7 @@ export default function NavbarMobile({isOpenMenu, setIsOpenMenu}) {
                                         <h3 className="text-primary font-axiformaHeavy mb-3">Trabajemos juntos</h3>
                                         <Link href="/para-inmobiliarias">
                                             <button onClick={() => setIsOpenMenu(false)}
-                                                    className="inline-flex items-center justify-center px-4 py-2.5 w-full md:w-32 border border-transparent rounded-md shadow-sm text-base text-white bg-primary hover:bg-primaryDark">
+                                                    className="inline-flex items-center justify-center px-4 py-2.5 w-full md:w-32 border border-transparent rounded-md shadow-md text-base text-white bg-primary hover:bg-primaryDark">
                                                 Para Inmobiliarias
                                             </button>
                                         </Link>

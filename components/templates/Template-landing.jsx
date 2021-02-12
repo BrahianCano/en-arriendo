@@ -8,19 +8,10 @@ export default function TemplateLanding() {
         <>
             <div className="w-full flex flex-col justify-center">
                 <HeaderLanding/>
-                <section>
+                <section className="py-5 md:py-10 bg-gradient-to-t from-lightgray rounded-md">
                     <SectionBestRealEstate/>
                 </section>
             </div>
-
-            <style jsx>{`
-
-              section {
-                background-color: #F4F6F7;
-                padding: 3rem 0rem 3rem 0rem;
-              }
-
-            `}</style>
         </>
     );
 }

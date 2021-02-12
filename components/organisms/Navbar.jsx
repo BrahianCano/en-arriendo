@@ -15,8 +15,8 @@ export default function Navbar() {
 
     return (
 
-        <header className="fixed z-40 top-0 shadow-md bg-lightgray opacity-96 w-full font-axiformaMedium">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        <header className="fixed z-40 top-0 shadow-md bg-lightgray opacity-98 w-full font-axiformaMedium">
+            <div className="max-w-7xl mx-auto px-5">
                 <div
                     className="flex justify-between items-center py-4 md:justify-start md:space-x-10">
 
@@ -26,7 +26,7 @@ export default function Navbar() {
                     {/** <!--Mobile menu button, show to action.--> */}
                     <div className="-mr-2 -my-2 md:hidden">
                         <button type="button" onClick={() => setIsOpenMenu(true)}
-                                className="rounded-md p-2 inline-flex items-center justify-center bg-gray-100">
+                                className="rounded-md p-2 inline-flex items-center justify-center bg-third focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primaryDark">
                             <span className="sr-only">Open menu</span>
                             <IconMenu size="30"/>
                         </button>

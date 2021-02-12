@@ -55,7 +55,7 @@ export default function SectionFilters() {
                     {/** <!-- Button show DropDawn sort by.--> */}
                     <button type="button"
                             onClick={() => setShowDropDown(true)}
-                            className={`inline-flex items-center justify-center px-4 py-2.5 w-full h-full rounded-${roundBtn} shadow-sm text-base text-white bg-primary hover:bg-primaryDark`}
+                            className={`inline-flex items-center justify-center px-4 py-2.5 w-full h-full rounded-${roundBtn} shadow-md text-base text-white bg-primary hover:bg-primaryDark`}
                             id="options-menu" aria-haspopup="true" aria-expanded="true">
                         Ordenar
 
@@ -114,7 +114,7 @@ export default function SectionFilters() {
 
 
     return (
-        <div className="w-full flex flex-col px-2 md:px-4 md:my-8">
+        <div className="w-full flex flex-col px-2 md:px-10 md:my-8">
 
             {/** <!-- Search action.--> */}
             <Search roundBtn={true}
@@ -158,7 +158,7 @@ export default function SectionFilters() {
 
                     {/** <!-- Button show modal filter.--> */}
                     <button
-                        className="inline-flex items-center justify-center px-4 py-2.5 w-full rounded-l-lg shadow-sm text-base text-white bg-primary hover:bg-primaryDark"
+                        className="inline-flex items-center justify-center px-4 py-2.5 w-full rounded-l-lg shadow-md text-base text-white bg-primary hover:bg-primaryDark"
 
                         onClick={() => setShowModal(true)}>
                         <span className="mr-1">

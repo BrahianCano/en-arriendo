@@ -31,7 +31,7 @@ export default function DropDawn({inputOptions, outOption, isShow, aling}) {
                         {
                             inputOptions.map((elem, key) =>
                                 <a key={key} onClick={(event) => outOption(event)}
-                                   className="block px-4 py-2 text-sm md:text-lg text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                                   className="block cursor-pointer px-4 py-2 text-sm md:text-lg text-gray-700 hover:bg-gray-100 hover:text-gray-900"
                                    role="menuitem">{elem}</a>
                             )
                         }
