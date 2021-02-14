@@ -1,14 +1,14 @@
 import Head from "next/head";
 
 // Import template //
-import TemplateSearchRealestate from "../../components/templates/Template-search-realestate"
+import TemplateDescription from "../../components/templates/Template-description"
 
-export default function SearchRealEstate() {
+export default function Templatedescription() {
     return (
         <>
             <Head>
                 {/** <!-- SEO / Home --> */}
-                <title>PENDIENTE ESTUDIO SEO Description</title>
+                <title>PENDIENTE ESTUDIO SEO</title>
                 <meta name="description" content="PENDIENTE ESTUDIO SEO"/>
                 <link rel="icon" href="/favicon.ico"/>
                 <meta name="robots" content="index, follow"/>
@@ -27,8 +27,8 @@ export default function SearchRealEstate() {
                 <meta property="og:url" content="https://midominio.com/"/>
             </Head>
 
-            <main className="mt-20 font-axiformaMedium">
-               <TemplateSearchRealestate/>
+            <main className="font-axiformaMedium">
+               <TemplateDescription/>
             </main>
         </>
     )
