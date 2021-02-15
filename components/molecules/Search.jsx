@@ -114,8 +114,8 @@ export default function Search({fSumbmit, textBtn, roundBtn = false}) {
                             className="focus:ring-primary focus:primary h-full py-0 pl-2 pr-7 border-transparent bg-transparent text-gray-500 rounded-md">
                         <option>Apartamento</option>
                         <option>Casa</option>
-                        <option>Local</option>
                         <option>Finca</option>
+                        <option>Local</option>
                     </select>
                 </div>
             </div>
@@ -125,7 +125,7 @@ export default function Search({fSumbmit, textBtn, roundBtn = false}) {
 
                 <div className="my-3 md:my-0 mx-0 md:mx-5">
                     <button
-                        className="inline-flex items-center justify-center px-4 py-2.5 w-full md:w-32 border border-transparent rounded-md shadow-sm text-base text-white bg-primary hover:bg-primaryDark"
+                        className="inline-flex items-center justify-center px-4 py-2.5 w-full md:w-32 border border-transparent rounded-md shadow-md text-base text-white bg-primary hover:bg-primaryDark"
                         type="submit">
                         {textBtn}
                     </button>
@@ -133,7 +133,7 @@ export default function Search({fSumbmit, textBtn, roundBtn = false}) {
 
                 <div className="ml-1.5">
                     <button
-                        className="rounded-full h-10 w-10 flex bg-primary hover:bg-primaryDark items-center justify-center"
+                        className="rounded-full h-10 w-10 flex bg-primary border border-transparent rounded-md shadow-md text-base hover:bg-primaryDark items-center justify-center"
                         type="submit">
                         <IconSearch color="#FFFFFF"/>
                     </button>
