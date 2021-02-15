@@ -28,7 +28,7 @@ export default function Landing() {
                 <meta property="og:url" content="https://midominio.com/"/>
             </Head>
 
-            <main>
+            <main className="mt-20 font-axiformaMedium">
                 <TemplateLanding/>
             </main>
         </>

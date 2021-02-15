@@ -38,17 +38,18 @@ export default function SectionForRealEstate() {
                         <main className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
                             <div className="sm:text-center lg:text-left">
 
-                                    {/** <!--Title of main left container.--> */}
-                                <h1 className="text-4xl md:text-5xl tracking-tight text-gray-900">
+                                {/** <!--Title of main left container.--> */}
+                                <h1 className="text-4xl md:text-5xl text-gray-900">
                                     <span className="block xl:inline">En arriendo para</span>
                                     <span
                                         className="block text-primary xl:inline font-axiformaHeavy"> Inmobiliarias</span>
                                 </h1>
 
                                 {/** <!--Call to action of main left container.--> */}
-                                <p className="my-5 md:my-8 text-base text-gray-500 md:text-xl lg:mx-0">
+                                <p className="my-5 md:my-8 text-gray-500 lg:mx-0">
                                     Comuníquese con nuestros agentes, para trabajar juntos y
-                                    <span className="block text-primary xl:inline"> crear una campaña publicitaria </span>
+                                    <span
+                                        className="block text-primary xl:inline"> crear una campaña publicitaria </span>
                                     en nuestro portal web.
                                 </p>
 

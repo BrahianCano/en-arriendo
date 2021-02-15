@@ -13,7 +13,7 @@ import IconClose from '../../assets/svg/icon-close';
 
 // Import organisms //
 import PublishRealestate from "../organisms/Publish-realestate";
-
+import SectionFilters from "../organisms/Section-filters";
 
 /**
  * -- PROPS ENTRIES --
@@ -37,11 +37,9 @@ export default function NavbarMobile({isOpenMenu, setIsOpenMenu}) {
             >
                 {(ref) => (
                     <div ref={ref}>
-                        <div
-                            className="absolute top-0 inset-0 z-50 p-2 transition transform origin-top-right md:hidden">
-                            <div
-                                className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
-                                <div className="pt-5 pb-6 px-5">
+                        <div className="absolute top-0 inset-0 z-50 p-2 transition transform origin-top-right md:hidden">
+                            <div className="h-screen rounded-lg shadow-lg ring-1 p-5 ring-black ring-opacity-5 bg-lightgray">
+                                <div>
                                     <div className="flex items-center justify-between">
 
                                         {/** <!--Logo webpage.--> */}
@@ -54,25 +52,29 @@ export default function NavbarMobile({isOpenMenu, setIsOpenMenu}) {
                                         {/** <!--Mobile menu button, hidden to action.--> */}
                                         <div className="-mr-2">
                                             <button type="button" onClick={() => setIsOpenMenu(false)}
-                                                    className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                                                    className="rounded-md p-2 inline-flex items-center justify-center bg-third focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primaryDark">
                                                 <IconClose size="26"/>
                                             </button>
                                         </div>
 
                                     </div>
-                                    <div className="mt-6">
+                                    <div className="my-10">
 
                                         {/** <!--Links redirect.--> */}
                                         <nav className="grid gap-y-8">
 
-                                            <a href="#"
-                                               className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                                            <Link href="/buscar-propiedad">
+                                                <a onClick={() => {
+                                                    setIsOpenMenu(false);
+                                                }}
+                                                   className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
 
-                                                <IconSearch size={26} className="flex-shrink-0 h-6 w-6"/>
-                                                <span className="ml-3 text-base text-gray-900">
+                                                    <IconSearch size={26} className="flex-shrink-0 h-6 w-6"/>
+                                                    <span className="ml-3 text-gray-900">
                                                 Buscar arriendo
                                             </span>
-                                            </a>
+                                                </a>
+                                            </Link>
 
                                             <a href="#" onClick={() => {
                                                 setShowModal(true);
@@ -81,50 +83,56 @@ export default function NavbarMobile({isOpenMenu, setIsOpenMenu}) {
                                                className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
 
                                                 <IconPublic size={24} className="flex-shrink-0 h-6 w-6"/>
-                                                <span className="ml-3 text-base text-gray-900">
+                                                <span className="ml-3 text-gray-900">
                                                 Publicar propiedad
                                             </span>
                                             </a>
                                         </nav>
                                     </div>
+                                    <hr/>
                                 </div>
-                                <div className="py-6 px-5 space-y-6">
-                                    <h3 className="text-primary font-axiformaHeavy">Encuentra en arriendo</h3>
+                                <div>
+                                    {/** <!--Section for users.--> */}
+                                    <section className="my-5">
 
-                                    {/** <!--Anchors to action.--> */}
-                                    <div className="grid grid-cols-2 gap-y-4">
+                                        <h3 className="text-primary font-axiformaHeavy mb-3">Encuentra en arriendo</h3>
 
-                                        <a href="#" className="text-base flex text-gray-900 hover:text-gray-700">
-                                            <IconHome size="24"/>
-                                            <span className="ml-1">Casas</span>
-                                        </a>
+                                        {/** <!--Anchors to action.--> */}
+                                        <div className="grid grid-cols-2 gap-y-6">
 
-                                        <a href="#" className="text-base flex text-gray-900 hover:text-gray-700">
-                                            <IconApartament size="24"/>
-                                            <span className="ml-1">Apartamentos</span>
-                                        </a>
-
-                                        <a href="#" className="text-base flex text-gray-900 hover:text-gray-700">
-                                            <IconFarm size="24"/>
-                                            <span className="ml-1">Fincas</span>
-                                        </a>
-
-                                        <a href="#" className="text-base flex text-gray-900 hover:text-gray-700">
-                                            <IconLocal size="24"/>
-                                            <span className="ml-1">Locales</span>
-                                        </a>
-
-                                    </div>
-
-                                    {/** <!--Button for companies.--> */}
-                                    <div>
-                                        <Link href="/para-inmobiliarias">
-                                            <a onClick={() => setIsOpenMenu(false)}
-                                               className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base text-white bg-primary hover:bg-primaryDark">
-                                                Para Inmobiliarias
+                                            <a href="#" className=" flex text-gray-900 hover:text-gray-700">
+                                                <IconHome size="24"/>
+                                                <span className="ml-1">Casas</span>
                                             </a>
+
+                                            <a href="#" className=" flex text-gray-900 hover:text-gray-700">
+                                                <IconApartament size="24"/>
+                                                <span className="ml-1">Apartamentos</span>
+                                            </a>
+
+                                            <a href="#" className=" flex text-gray-900 hover:text-gray-700">
+                                                <IconFarm size="24"/>
+                                                <span className="ml-1">Fincas</span>
+                                            </a>
+
+                                            <a href="#" className=" flex text-gray-900 hover:text-gray-700">
+                                                <IconLocal size="24"/>
+                                                <span className="ml-1">Locales</span>
+                                            </a>
+
+                                        </div>
+                                    </section>
+                                    <hr/>
+                                    {/** <!--Section for companies.--> */}
+                                    <section className="my-5">
+                                        <h3 className="text-primary font-axiformaHeavy mb-3">Trabajemos juntos</h3>
+                                        <Link href="/para-inmobiliarias">
+                                            <button onClick={() => setIsOpenMenu(false)}
+                                                    className="inline-flex items-center justify-center px-4 py-2.5 w-full md:w-32 border border-transparent rounded-md shadow-md text-base text-white bg-primary hover:bg-primaryDark">
+                                                Para Inmobiliarias
+                                            </button>
                                         </Link>
-                                    </div>
+                                    </section>
                                 </div>
                             </div>
                         </div>

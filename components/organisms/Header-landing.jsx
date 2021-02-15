@@ -24,15 +24,16 @@ export default function HeaderLanding() {
                     para posicionamiento
                 </h1>
 
-                <h4 className="my-3 text-base text-gray-500 md:text-xl">
+                <h4 className="text-2xl md:text-3xl text-gray-500 my-3">
                     Slogan y llamado a la accion
                 </h4>
             </div>
 
-            <div className="my-20">
+            <div className="my-10">
 
                 {/** <!-- Search action.--> */}
-                <Search fSumbmit={onSubmit} textBtn="Buscar"/>
+                <Search fSumbmit={onSubmit}
+                        textBtn="Buscar"/>
             </div>
 
         </section>
