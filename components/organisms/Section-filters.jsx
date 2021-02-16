@@ -1,7 +1,6 @@
 import {useState} from 'react'
 
 // Import molecules //
-import Search from "../molecules/Search"
 import DropDawn from "../molecules/DropDawn"
 import Modal from "../molecules/Modal"
 import Form from "../molecules/Form"
@@ -52,20 +51,20 @@ export default function SectionFilters() {
         return (
             <div className="relative w-full h-full">
 
-                    {/** <!-- Button show DropDawn sort by.--> */}
-                    <button type="button"
-                            onClick={() => setShowDropDown(true)}
-                            className={`inline-flex items-center justify-center px-4 py-2.5 w-full h-full rounded-${roundBtn} shadow-md text-base text-white bg-primary hover:bg-primaryDark`}
-                            id="options-menu" aria-haspopup="true" aria-expanded="true">
-                        Ordenar
+                {/** <!-- Button show DropDawn sort by.--> */}
+                <button type="button"
+                        onClick={() => setShowDropDown(true)}
+                        className={`inline-flex items-center justify-center px-4 py-2.5 w-full h-full rounded-${roundBtn} shadow-md text-base text-white bg-primary hover:bg-primaryDark`}
+                        id="options-menu" aria-haspopup="true" aria-expanded="true">
+                    Ordenar
 
-                        <svg className="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg"
-                             viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                            <path fillRule="evenodd"
-                                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                  clipRule="evenodd"/>
-                        </svg>
-                    </button>
+                    <svg className="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg"
+                         viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fillRule="evenodd"
+                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                              clipRule="evenodd"/>
+                    </svg>
+                </button>
 
                 {/** <!-- Options DropDawn sort by.--> */}
                 <DropDawn isShow={showDropDown}
@@ -91,16 +90,6 @@ export default function SectionFilters() {
 
 
     /**
-     * function onSubmit
-     * @out json form data
-     * @return out Data inputs
-     */
-    const onSubmitSearch = (out) => {
-        console.log(out);
-    }
-
-
-    /**
      * function SelectSortBy
      * @out json form data
      * Update the state (setShowDropDown), close options DropDawn
@@ -114,14 +103,10 @@ export default function SectionFilters() {
 
 
     return (
-        <div className="w-full flex flex-col px-2 md:px-10 md:my-8">
-
-            {/** <!-- Search action.--> */}
-            <Search roundBtn={true}
-                    fSumbmit={onSubmitSearch}/>
+        <div className="w-full flex flex-col px-2 md:px-10">
 
             {/** <!-- "Form filters" and "dropdawn sort by" in desktop.--> */}
-            <div className="hidden md:block my-5">
+            <div className="hidden md:block">
 
                 {/** <!--Order by.--> */}
                 <div className="my-5">
@@ -130,10 +115,13 @@ export default function SectionFilters() {
                             <IconSort color="#52525b"/>
                         </i>
                         Ordenar</h5>
-                    <hr className="mb-5"/>
+                    <hr/>
 
-                    {/** <!-- componentSortBy.--> */}
-                    {componentSortBy('lg')}
+                    <div className="flex justify-start mt-5">
+
+                        {/** <!-- componentSortBy.--> */}
+                        {componentSortBy('lg')}
+                    </div>
                 </div>
 
                 {/** <!--Filter by.--> */}
@@ -145,8 +133,12 @@ export default function SectionFilters() {
                         Filtrar</h5>
                     <hr/>
 
-                    {/** <!-- componentForm.--> */}
-                    {componentForm(fieldsFilter, 'Aplicar')}
+                    <div className="flex justify-start">
+
+                        {/** <!-- componentForm.--> */}
+                        {componentForm(fieldsFilter, 'Aplicar')}
+                    </div>
+
                 </div>
             </div>
 
