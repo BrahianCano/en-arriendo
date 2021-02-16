@@ -3,6 +3,7 @@ import SectionCard from "../organisms/Section-card";
 import SectionFilters from "../organisms/Section-filters";
 import Search from "../molecules/Search";
 
+
 /**
  * -- PROPS ENTRIES --
  * @InitialProps prop Object -  Array of properties.
@@ -20,7 +21,7 @@ export default function TemplateSearchRealestate({StaticProps}) {
     }
     return (
         <>
-            <div className="md:py-8 mx-2 md:mx-0 hover:shadow-md duration-500 rounded-md">
+            <div className="md:py-8 mx-2 md:mx-0 rounded-md hover:shadow-xl duration-500">
 
                 {/** <!-- BUTTON SEARCH.--> */}
                 <Search roundBtn={true}
