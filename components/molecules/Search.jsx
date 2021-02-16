@@ -76,9 +76,9 @@ export default function Search({fSumbmit, textBtn, roundBtn = false}) {
             setValueSearch({...valueSearch, show: false})
             fSumbmit(data)
         })}
-              className={!roundBtn ? "md:flex md:justify-center grid grid-cols-1" : "flex justify-center"}>
+              className={!roundBtn ? "md:flex md:justify-center grid grid-cols-1 items-center" : "flex justify-center"}>
 
-            <div className="relative rounded-md shadow-sm">
+            <div className="relative rounded-md shadow-sm md:w-2/5">
 
                 {/** <!--Icon input.--> */}
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
