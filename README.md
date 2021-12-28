@@ -1,4 +1,4 @@
-## New repository from the command line
+## New repository from the command line 
 ```bash
 echo "# en-arriendo" >> README.md
 git init
@@ -10,7 +10,7 @@ git push -u origin main
 ```
 
 
-## …or push an existing repository from the command line
+## …or push an existing repository from the command line.
 
 ```bash
 git remote add origin https://github.com/BrahianCano/en-arriendo.git
