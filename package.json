@@ -21,7 +21,14 @@
     "tailwindcss": "^2.0.1"
   },
   "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
     "file-loader": "^6.2.0",
     "postcss-preset-env": "^6.7.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
