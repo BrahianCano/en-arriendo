@@ -15,7 +15,7 @@ git push -u origin main
 ```bash
 git remote add origin https://github.com/BrahianCano/en-arriendo.git
 git branch -M main
-git push -u origin main
+git push -u origin main.
 ```
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
