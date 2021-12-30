@@ -1,33 +1,18 @@
 // Import Firebase //
-import firebase from "../js/firebase";
-import 'firebase/firestore';
+import db from "../js/firebase";
+import "firebase/firestore";
 
+import { collection, getDocs } from "firebase/firestore";
 
 export default async function GetMultipleDocs(nameCollection) {
-    let out = {payload: null, error: null};
+  let out = { payload: null, error: null };
+  let outDocuments = [];
 
-    const db = firebase.firestore(firebase);
+  const docsCollection = await getDocs(collection(db, nameCollection));
+  docsCollection.forEach((doc) => {
+    outDocuments.push(doc.data());
+  });
+  out = { ...out, payload: outDocuments };
 
-    let docsCollection = db.collection(nameCollection);
-    try {
-
-        let outDocuments = [];
-        const documents = await docsCollection.get();
-
-        for (const doc of documents.docs) {
-            const {data} = doc.data();
-            const docId = doc.id;
-
-            data.forEach(document => {
-                document = {...document, id: docId}
-                outDocuments.push(document);
-            });
-        }
-        out = {...out, payload: outDocuments}
-
-    } catch (err) {
-        out = {...out, error: err}
-    }
-
-    return out;
+  return out;
 }

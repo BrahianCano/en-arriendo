@@ -13,7 +13,7 @@ import GetMultipleDocs from "assets/hooks/GetMultipleDocs";
  * @return JSX.Element SearchRealEstate
  */
 export default function SearchRealEstate({props}) {
-    const {payload} = props;
+    //const {payload} = props;
 
     return (
         <>
@@ -38,9 +38,9 @@ export default function SearchRealEstate({props}) {
                 <meta property="og:url" content="https://midominio.com/"/>
             </Head>
 
-            <main className="mt-20 font-axiformaMedium">
+           {/*<main className="mt-20 font-axiformaMedium">
                 <TemplateSearchRealestate StaticProps={payload}/>
-            </main>
+            </main>*/}
         </>
     )
 }
@@ -52,7 +52,7 @@ export default function SearchRealEstate({props}) {
  *
  * https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation
  */
-
+/*
 export async function getStaticProps() {
     const out = await GetMultipleDocs('Agencies');
 
@@ -60,3 +60,4 @@ export async function getStaticProps() {
         props: {props: out}, // will be passed to the page component as props
     }
 }
+*/
