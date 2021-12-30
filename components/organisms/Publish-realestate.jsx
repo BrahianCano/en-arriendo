@@ -1,5 +1,5 @@
 // Import icons svg //
-import IconPublic from "../../assets/svg/icon-public";
+import IconPublic from "../svg/Icon-public";
 
 // Import molecules //
 import Form from "../molecules/Form";
