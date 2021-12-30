@@ -4,7 +4,7 @@ import {useRouter} from 'next/router';
 import {SlugFormatter} from '../../assets/hooks/SlugFormatter';
 
 // Import icons svg //
-import IconBed from '../../assets/svg/icon-bed';
+import IconBed from '../svg/Icon-bed';
 
 
 /**

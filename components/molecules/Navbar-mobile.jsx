@@ -3,13 +3,13 @@ import {Transition} from '@headlessui/react'
 import Link from 'next/link'
 
 // Import icons svg //
-import IconPublic from '../../assets/svg/icon-public';
-import IconSearch from '../../assets/svg/icon-search';
-import IconHome from '../../assets/svg/icon-home';
-import IconLocal from '../../assets/svg/icon-local';
-import IconApartament from '../../assets/svg/icon-apartament';
-import IconFarm from '../../assets/svg/icon-farm';
-import IconClose from '../../assets/svg/icon-close';
+import IconPublic from '../svg/Icon-public';
+import IconSearch from '../svg/Icon-search';
+import IconHome from '../svg/Icon-home';
+import IconLocal from '../svg/Icon-local';
+import IconApartament from '../svg/Icon-apartament';
+import IconFarm from '../svg/Icon-farm';
+import IconClose from '../svg/Icon-close';
 
 // Import organisms //
 import PublishRealestate from "../organisms/Publish-realestate";
@@ -28,15 +28,15 @@ export default function NavbarMobile({isOpenMenu, setIsOpenMenu}) {
         <>
             <Transition
                 show={isOpenMenu}
-                enter="duration-200 ease-out"
-                enterFrom="opacity-0 scale-95"
-                enterTo="opacity-100 scale-100"
-                leave="duration-100 ease-in"
-                leaveFrom="opacity-100 scale-100"
-                leaveTo="opacity-0 scale-95"
+                enter="transition-opacity duration-75"
+                enterFrom="opacity-0"
+                enterTo="opacity-100"
+                leave="transition-opacity duration-150"
+                leaveFrom="opacity-100"
+                leaveTo="opacity-0"
             >
-                {(ref) => (
-                    <div ref={ref}>
+ 
+                    <div >
                         <div className="absolute top-0 inset-0 z-50 p-2 transition transform origin-top-right md:hidden">
                             <div className="h-screen rounded-lg shadow-lg ring-1 p-5 ring-black ring-opacity-5 bg-lightgray">
                                 <div>
@@ -137,7 +137,7 @@ export default function NavbarMobile({isOpenMenu, setIsOpenMenu}) {
                             </div>
                         </div>
                     </div>
-                )}
+              
             </Transition>
             <PublishRealestate showModal={showModal} setShowModal={setShowModal}/>
         </>

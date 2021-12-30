@@ -1,4 +1,4 @@
-## New repository from the command line
+## New repository from the command line 
 ```bash
 echo "# en-arriendo" >> README.md
 git init
@@ -10,12 +10,12 @@ git push -u origin main
 ```
 
 
-## …or push an existing repository from the command line
+## …or push an existing repository from the command line.
 
 ```bash
 git remote add origin https://github.com/BrahianCano/en-arriendo.git
 git branch -M main
-git push -u origin main
+git push -u origin main.
 ```
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).

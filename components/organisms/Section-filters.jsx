@@ -6,8 +6,8 @@ import Modal from "../molecules/Modal"
 import Form from "../molecules/Form"
 
 // Import icons svg //
-import IconFilter from "../../assets/svg/icon-filter";
-import IconSort from "../../assets/svg/icon-sort";
+import IconFilter from "../svg/Icon-filter";
+import IconSort from "../svg/Icon-sort";
 
 
 export default function SectionFilters() {

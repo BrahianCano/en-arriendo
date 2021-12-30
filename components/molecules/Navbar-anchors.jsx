@@ -1,9 +1,9 @@
 import Link from 'next/link';
 
 // Import icons svg //
-import IconSearch from '../../assets/svg/icon-search';
+import IconSearch from '../svg/Icon-search';
 
-// Import icons svg //
+// Import molecules //
 import PublishButton from "./Publish-button";
 
 

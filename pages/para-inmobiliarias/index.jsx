@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 // Import template //
-import SectionForRealEstate from "../../components/organisms/Section-for-realestate";
+import SectionForRealEstate from "components/organisms/Section-for-realestate";
 
 
 export default function ForRealEstate() {

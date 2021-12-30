@@ -1,7 +1,7 @@
 import {useState} from "react";
 
 // Import icons svg //
-import IconPublic from "../../assets/svg/icon-public";
+import IconPublic from "../svg/Icon-public";
 
 // Import organisms //
 import PublishRealestate from "../organisms/Publish-realestate";

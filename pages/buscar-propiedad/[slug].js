@@ -1,9 +1,9 @@
 import Head from "next/head";
 
 // Import Hooks //
-import {SlugFormatter} from '../../assets/hooks/SlugFormatter';
-import {GetObjDocument} from '../../assets/hooks/GetDocument';
-import GetMultipleDocs from "../../assets/hooks/GetMultipleDocs";
+import {SlugFormatter} from 'assets/hooks/SlugFormatter';
+import {GetObjDocument} from 'assets/hooks/GetDocument';
+import GetMultipleDocs from "assets/hooks/GetMultipleDocs";
 
 
 /**
@@ -12,7 +12,7 @@ import GetMultipleDocs from "../../assets/hooks/GetMultipleDocs";
  * @return JSX.Element SectionCards
  */
 export default function DescriptionRealEstate({props}) {
-    const {payload} = props;
+    //const {payload} = props;
 
     return (
         <>
@@ -38,7 +38,7 @@ export default function DescriptionRealEstate({props}) {
             </Head>
 
             <main className="mt-20 font-axiformaMedium">
-                <h1>{payload.realestate}</h1>
+                {/*<h1>{payload.realestate}</h1>*/}
             </main>
         </>
     )
@@ -51,6 +51,7 @@ export default function DescriptionRealEstate({props}) {
  *
  * https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation
  */
+/*
 export const getStaticProps = async ({params}) => {
     const {slug} = params
     const arrParams = slug.split('-');
@@ -65,7 +66,7 @@ export const getStaticProps = async ({params}) => {
     }
 
 }
-
+*/
 
 /**
  * The paths key determines which paths will be pre-rendered.
@@ -74,6 +75,7 @@ export const getStaticProps = async ({params}) => {
  *
  * https://nextjs.org/docs/basic-features/data-fetching#getstaticpaths-static-generation
  */
+/*
 export async function getStaticPaths() {
     const {payload} = await GetMultipleDocs('Agencies');
 
@@ -89,4 +91,4 @@ export async function getStaticPaths() {
         fallback: false
     };
 
-}
+}*/

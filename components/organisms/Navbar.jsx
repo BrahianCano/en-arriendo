@@ -7,7 +7,7 @@ import NavbarButton from '../molecules/Navbar-button';
 import NavbarMobile from '../molecules/Navbar-mobile';
 
 // Import icons svg //
-import IconMenu from '../../assets/svg/icon-menu';
+import IconMenu from '../svg/Icon-menu';
 
 
 export default function Navbar() {
