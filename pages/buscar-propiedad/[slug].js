@@ -1,9 +1,9 @@
 import Head from "next/head";
 
 // Import Hooks //
-import {SlugFormatter} from '../../assets/hooks/SlugFormatter';
-import {GetObjDocument} from '../../assets/hooks/GetDocument';
-import GetMultipleDocs from "../../assets/hooks/GetMultipleDocs";
+import {SlugFormatter} from 'assets/hooks/SlugFormatter';
+import {GetObjDocument} from 'assets/hooks/GetDocument';
+import GetMultipleDocs from "assets/hooks/GetMultipleDocs";
 
 
 /**

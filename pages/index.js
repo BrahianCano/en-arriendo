@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 // Import template //
-import TemplateLanding from "../components/templates/Template-landing";
+import TemplateLanding from "components/templates/Template-landing";
 
 
 export default function Landing() {

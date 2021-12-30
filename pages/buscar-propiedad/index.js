@@ -1,10 +1,10 @@
 import Head from "next/head";
 
 // Import template //
-import TemplateSearchRealestate from "../../components/templates/Template-search-realestate"
+import TemplateSearchRealestate from "components/templates/Template-search-realestate"
 
 // Import hooks //
-import GetMultipleDocs from "../../assets/hooks/GetMultipleDocs";
+import GetMultipleDocs from "assets/hooks/GetMultipleDocs";
 
 
 /**
